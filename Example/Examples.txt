@@ -1,0 +1,14 @@
+Get data for NA challengers
+https://na.api.pvp.net/api/lol/na/v2.5/league/challenger?type=RANKED_SOLO_5x5&api_key=[Your Riot API]
+
+Get data for JP challengers
+https://jp.api.pvp.net/api/lol/jp/v2.5/league/challenger?type=RANKED_SOLO_5x5&api_key=[Your Riot API]
+
+-> You can get each summoner Id, which is needed to get match list per summoner.
+
+
+Get 10 the latest brief match data related to inputed summoner.
+I guess that there is no way to get more than 10 cases. 
+https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[Summoner Id]/recent?api_key=[Your Riot API]
+
+-> You can get game id , which is needed to get detail match data, such as when and what kind of items a summoner bought.

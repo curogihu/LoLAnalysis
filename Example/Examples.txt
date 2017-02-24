@@ -12,3 +12,10 @@ I guess that there is no way to get more than 10 cases.
 https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[Summoner Id]/recent?api_key=[Your Riot API]
 
 -> You can get game id , which is needed to get detail match data, such as when and what kind of items a summoner bought.
+
+Get a Summoner's tier
+/api/lol/{region}/v2.5/league/by-summoner/{summonerIds}
+
+[Caution]
+As of Febrary 2017, there is no way to get time stamp each patch time and region's server.
+https://developer.riotgames.com/discussion/community-discussion/show/TyvgW2Vk

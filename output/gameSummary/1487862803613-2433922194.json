@@ -1,0 +1,107 @@
+{
+    "championId": 120,
+    "createDate": 1487862803613,
+    "fellowPlayers": [
+        {
+            "championId": 1,
+            "summonerId": 21340212,
+            "teamId": 100
+        },
+        {
+            "championId": 24,
+            "summonerId": 38249375,
+            "teamId": 100
+        },
+        {
+            "championId": 57,
+            "summonerId": 45598201,
+            "teamId": 200
+        },
+        {
+            "championId": 131,
+            "summonerId": 52316360,
+            "teamId": 100
+        },
+        {
+            "championId": 202,
+            "summonerId": 26103855,
+            "teamId": 100
+        },
+        {
+            "championId": 92,
+            "summonerId": 79689395,
+            "teamId": 100
+        },
+        {
+            "championId": 134,
+            "summonerId": 75230203,
+            "teamId": 200
+        },
+        {
+            "championId": 96,
+            "summonerId": 35301382,
+            "teamId": 200
+        },
+        {
+            "championId": 9,
+            "summonerId": 50158906,
+            "teamId": 200
+        }
+    ],
+    "gameId": 2433922194,
+    "gameMode": "CLASSIC",
+    "gameType": "MATCHED_GAME",
+    "invalid": false,
+    "ipEarned": 62,
+    "level": 30,
+    "mapId": 11,
+    "spell1": 6,
+    "spell2": 11,
+    "stats": {
+        "assists": 7,
+        "championsKilled": 4,
+        "goldEarned": 12387,
+        "goldSpent": 10983,
+        "item0": 1413,
+        "item1": 3143,
+        "item2": 2032,
+        "item3": 3078,
+        "item4": 3047,
+        "item6": 3364,
+        "killingSprees": 2,
+        "largestKillingSpree": 2,
+        "largestMultiKill": 1,
+        "level": 16,
+        "magicDamageDealtPlayer": 28437,
+        "magicDamageDealtToChampions": 2807,
+        "magicDamageTaken": 11085,
+        "minionsKilled": 42,
+        "neutralMinionsKilled": 175,
+        "neutralMinionsKilledEnemyJungle": 88,
+        "neutralMinionsKilledYourJungle": 87,
+        "numDeaths": 5,
+        "physicalDamageDealtPlayer": 157873,
+        "physicalDamageDealtToChampions": 9355,
+        "physicalDamageTaken": 23222,
+        "playerPosition": 3,
+        "team": 200,
+        "timePlayed": 2022,
+        "totalDamageDealt": 195157,
+        "totalDamageDealtToBuildings": 2214,
+        "totalDamageDealtToChampions": 12867,
+        "totalDamageTaken": 34732,
+        "totalHeal": 12779,
+        "totalTimeCrowdControlDealt": 311,
+        "totalUnitsHealed": 1,
+        "trueDamageDealtPlayer": 8845,
+        "trueDamageDealtToChampions": 705,
+        "trueDamageTaken": 424,
+        "turretsKilled": 1,
+        "visionWardsBought": 3,
+        "wardKilled": 5,
+        "wardPlaced": 9,
+        "win": false
+    },
+    "subType": "RANKED_SOLO_5x5",
+    "teamId": 200
+}

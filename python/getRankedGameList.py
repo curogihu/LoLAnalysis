@@ -16,6 +16,8 @@ summonersId = open("../output/list/summoners.csv").readlines()
 cnt = 0
 summonersLen = str(len(summonersId))
 
+fGameIds = open(util.gameIdsFilePath, 'w', encoding="UTF-8")
+
 for summonerId in summonersId:
     # have to delete new line code
     summonerId = summonerId.replace("\n", "")
@@ -26,10 +28,8 @@ for summonerId in summonersId:
 
     gameListJson = util.getLoLGameListJson(util.rankedGameListUrl, summonerId)
 
-    if gameListJson == "":
+    if gameListJson == "" or gameListJson == "429":
         sys.exit()
-
-    fGameIds = open(util.gameIdsFilePath, 'a', encoding="UTF-8")
 
     for match in gameListJson["matches"]:
         matchTimeStamp = match["timestamp"]
@@ -42,4 +42,4 @@ for summonerId in summonersId:
 
 fGameIds.close()
 
-util.deleteDuplicatedRecords(util.gameIdsFilePath)
+util.deleteDuplicatedRecords(util.gameIdsFilePath, True)

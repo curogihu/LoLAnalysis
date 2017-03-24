@@ -49,4 +49,4 @@ for summonerId in summonersId:
 
 fGameIds.close()
 
-util.deleteDuplicatedRecords(util.gameIdsFilePath)
+util.deleteDuplicatedRecords(util.gameIdsFilePath, True)

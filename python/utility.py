@@ -43,7 +43,7 @@ def getJson(url):
     returnJson = ""
 
     while True:
-        sleep(1.6)
+        sleep(1.3)
 
         try:
             r = requests.get(url)

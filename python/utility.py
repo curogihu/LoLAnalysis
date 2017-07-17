@@ -23,6 +23,8 @@ rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summone
 challengerSummonersFilePath = '../output/list/summonerChallenger.csv'
 masterSummonersFilePath = '../output/list/summonerMaster.csv'
 summonersFilePath = '../output/list/summoners.csv'
+accountsFilePath = '../output/list/accounts.csv'
+
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"
 accountFolderPath = "../output/account/"

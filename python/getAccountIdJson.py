@@ -1,19 +1,34 @@
 import utility
-import os
-import sys
-import json
 from datetime import datetime
 
-summonerIds = open("../output/list/summoners.csv").readlines()
+with open("../output/list/summoners.csv") as fSummoners:
+    summonerIds = fSummoners.readlines()
 
 cnt = 0
 summonerIdsLen = len(summonerIds)
 
-for summonerId in summonerIds:
-    summonerId = summonerId.replace("\n", "")
+with open(utility.accountsFilePath, 'w', encoding="UTF-8") as faccounts:
 
-    print("expected summonerId json = " + summonerId)
+    for summonerId in summonerIds:
+        summonerId = summonerId.replace("\n", "")
 
+        print("expected summonerId json = " + summonerId)
+        accountJson = utility.getLoLAccountJson(utility.accountUrl, str(summonerId))
+
+        if accountJson == "" or accountJson == "429":
+            print("skipped summonerId json = " + summonerId)
+
+        else:
+            faccounts.write(str(accountJson["accountId"]) + "\n")
+
+
+
+        cnt += 1
+
+        if cnt % 10 == 0:
+            print(str(cnt) + " / " + str(summonerIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
+
+"""
     if os.path.exists(utility.accountFolderPath + summonerId + ".json"):
         # exclude from target files
         summonerIdsLen -= 1
@@ -26,7 +41,8 @@ for summonerId in summonerIds:
         if accountJson == "" or accountJson == "429":
             print("get json value is [" + accountJson + "]")
             print("Unexpectational error, so it ended.")
-            sys.exit()
+            continue
+            # sys.exit()
 
         cnt += 1
 
@@ -48,3 +64,4 @@ for summonerId in summonerIds:
             # give up getting json
 
         # fjson.close()
+"""

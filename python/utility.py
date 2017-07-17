@@ -5,14 +5,19 @@ import apiKey as a
 from time import sleep
 import requests
 
-
+# DEPRECATED on July 24th, 2017
 # challengersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/challenger?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
 # mastersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/master?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
 challengersUrl = "https://na1.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 mastersUrl = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 
-newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
+# DEPRECATED on July 24th, 2017
+# newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
+accountUrl = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
+
 gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
+
+
 rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
 challengerSummonersFilePath = '../output/list/summonerChallenger.csv'
@@ -20,6 +25,7 @@ masterSummonersFilePath = '../output/list/summonerMaster.csv'
 summonersFilePath = '../output/list/summoners.csv'
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"
+accountFolderPath = "/../output/account/"
 gameIdsFilePath = '../output/list/gameIds.csv'
 
 def getLoLJson(urlTemplate):
@@ -35,6 +41,14 @@ def getLoLGameListJson(urlTemplate, summonerId):
 
 def getLoLGameJson(urlTemplate, gameId):
     url = urlTemplate.replace("[GAMEID]", gameId)
+    url = url.replace("[APIKEY]", a.apiKey)
+
+    print(url)
+
+    return getJson(url)
+
+def getLoLAccountJson(urlTemplate, summonerId):
+    url = urlTemplate.replace("[SUMMONERID]", summonerId)
     url = url.replace("[APIKEY]", a.apiKey)
 
     print(url)

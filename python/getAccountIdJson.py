@@ -36,13 +36,15 @@ for summonerId in summonerIds:
         if not os.path.exists(utility.accountFolderPath):
             os.mkdir(utility.accountFolderPath)
 
-        fjson = open(utility.accountFolderPath + summonerId + ".json", "w")
+        # fjson = open(utility.accountFolderPath + summonerId + ".json", "w")
 
-        try:# json.dump(gameJson, fjson, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+        with open(utility.accountFolderPath + summonerId + ".json", "w") as fjson:
+
+        try:
             json.dump(accountJson, fjson, separators=(',', ': '))
 
         except UnicodeEncodeError as e:
             print("UnicodeEncodeError [getGamejson] gameId = " + summonerId)
             # give up getting json
 
-        fjson.close()
+        # fjson.close()

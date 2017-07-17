@@ -25,7 +25,7 @@ masterSummonersFilePath = '../output/list/summonerMaster.csv'
 summonersFilePath = '../output/list/summoners.csv'
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"
-accountFolderPath = "/../output/account/"
+accountFolderPath = "../output/account/"
 gameIdsFilePath = '../output/list/gameIds.csv'
 
 def getLoLJson(urlTemplate):

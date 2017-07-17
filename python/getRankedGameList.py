@@ -1,9 +1,6 @@
 import utility as util
-import json
-import os
 import sys
 import time
-from time import sleep
 from datetime import datetime
 
 currentTimeStamp = int(time.time() * 1000)

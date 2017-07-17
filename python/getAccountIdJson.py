@@ -7,7 +7,7 @@ with open("../output/list/summoners.csv") as fSummoners:
 cnt = 0
 summonerIdsLen = len(summonerIds)
 
-with open(utility.accountsFilePath, 'w', encoding="UTF-8") as faccounts:
+with open(utility.accountsFilePath, 'w', encoding="UTF-8") as fAccounts:
 
     for summonerId in summonerIds:
         summonerId = summonerId.replace("\n", "")
@@ -19,7 +19,7 @@ with open(utility.accountsFilePath, 'w', encoding="UTF-8") as faccounts:
             print("skipped summonerId json = " + summonerId)
 
         else:
-            faccounts.write(str(accountJson["accountId"]) + "\n")
+            fAccounts.write(str(accountJson["accountId"]) + "\n")
 
         cnt += 1
 

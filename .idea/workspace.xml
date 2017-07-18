@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summoners.csv" pinned="false" current-in-tab="false">
+      <file leaf-file-name="summoners.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getGameJson.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getGameJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -956,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -994,6 +986,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import utility
 import json
 import os

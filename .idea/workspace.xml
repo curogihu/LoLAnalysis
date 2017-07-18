@@ -21,86 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getAccountIdJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
+      <file leaf-file-name="getMatchJson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/getMatchJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apiKey.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/apiKey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+            <state relative-caret-position="337">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accounts.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/list/accounts.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="summoners.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGameJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="summoners_copy.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/list/summoners_copy.csv">
+      <file leaf-file-name="156219.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/match/156219.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getHighRankedSummonersId.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/utility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,13 +60,15 @@
       <find>fSummoners</find>
       <find>a.apiKey</find>
       <find>getLoLAccountJson</find>
-      <find>gameJson</find>
-      <find>matchVersionDirectoryPath</find>
       <find>expected summonerId json</find>
       <find>summonerId</find>
       <find>print</find>
       <find>summonerIds</find>
       <find>json</find>
+      <find>gameIds</find>
+      <find>matchVersionDirectoryPath</find>
+      <find>getLoLGameJson</find>
+      <find>gameJson</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -144,7 +82,6 @@
         <option value="$PROJECT_DIR$/python/summonerChallenger.csv" />
         <option value="$PROJECT_DIR$/python/summoners.csv" />
         <option value="$PROJECT_DIR$/python/getSummonerInfo.py" />
-        <option value="$PROJECT_DIR$/python/getMatchJson.py" />
         <option value="$PROJECT_DIR$/output/game/2434034614.json" />
         <option value="$PROJECT_DIR$/python/copy-deleteDuplicatedData.py" />
         <option value="$PROJECT_DIR$/python/test.csv" />
@@ -161,11 +98,12 @@
         <option value="$PROJECT_DIR$/python/getRankedGameList.py" />
         <option value="$PROJECT_DIR$/python/fakeApiKey.py" />
         <option value="$PROJECT_DIR$/python/getHighRankedSummonersId.py" />
-        <option value="$PROJECT_DIR$/python/utility.py" />
         <option value="$PROJECT_DIR$/python/getAccountIdJson.py" />
         <option value="$PROJECT_DIR$/python/apiKey.py" />
         <option value="$PROJECT_DIR$/output/list/summoners.csv" />
         <option value="$PROJECT_DIR$/python/getGameJson.py" />
+        <option value="$PROJECT_DIR$/python/utility.py" />
+        <option value="$PROJECT_DIR$/python/getMatchJson.py" />
       </list>
     </option>
   </component>
@@ -245,6 +183,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="match" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="list" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -265,6 +221,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python" />
       <recent name="$PROJECT_DIR$/output/list" />
       <recent name="C:\Users\User\Desktop\PythonProject\LoLAnalyse\python" />
     </key>
@@ -281,25 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getAccountIdJson">
-    <configuration default="false" name="researchWinrate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalyse" />
-      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\outputTeamResult.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.getMatchJson">
     <configuration default="false" name="searchWinRate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,6 +306,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalyse" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/getAccountIdJson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="getMatchJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/anaconda/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalyse" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/getMatchJson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -698,19 +655,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.researchWinrate" />
-      <item index="1" class="java.lang.String" itemvalue="Python.searchWinRate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.outputTeamResult" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
-      <item index="4" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
+      <item index="0" class="java.lang.String" itemvalue="Python.searchWinRate" />
+      <item index="1" class="java.lang.String" itemvalue="Python.outputTeamResult" />
+      <item index="2" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
+      <item index="3" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getMatchJson" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
-        <item index="2" class="java.lang.String" itemvalue="Python.searchWinRate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.outputTeamResult" />
-        <item index="4" class="java.lang.String" itemvalue="Python.researchWinrate" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getMatchJson" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
+        <item index="3" class="java.lang.String" itemvalue="Python.searchWinRate" />
+        <item index="4" class="java.lang.String" itemvalue="Python.outputTeamResult" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -782,6 +739,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30016723" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -796,7 +754,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -821,9 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output/1487884065454-2434029925.json" />
-    <entry file="file://$PROJECT_DIR$/output/1487862803613-2433922194.json" />
-    <entry file="file://$PROJECT_DIR$/output/1487864997960-2433733303.json" />
     <entry file="file://$PROJECT_DIR$/output/game/2434034614.json" />
     <entry file="file://$PROJECT_DIR$/output/1487886776749-2434034614.json" />
     <entry file="file://$PROJECT_DIR$/output/1487859679405-2433941267.json" />
@@ -923,6 +877,29 @@
     <entry file="file://$PROJECT_DIR$/output/game/19668604.json" />
     <entry file="file://$PROJECT_DIR$/output/game/19688334.json" />
     <entry file="file://$PROJECT_DIR$/output/game/138243.json" />
+    <entry file="file://$PROJECT_DIR$/output/account/5908.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/apiKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -931,35 +908,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/account/5908.json">
+    <entry file="file://$PROJECT_DIR$/output/list/accounts.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/apiKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -974,26 +944,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/list/accounts.csv">
+    <entry file="file://$PROJECT_DIR$/output/match/36930.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
+    <entry file="file://$PROJECT_DIR$/python/utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="112">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getMatchJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/list/summoners.csv">
+    <entry file="file://$PROJECT_DIR$/output/match/156219.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

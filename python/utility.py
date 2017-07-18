@@ -14,7 +14,7 @@ mastersUrl = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queue
 # DEPRECATED on July 24th, 2017
 # newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
 accountUrl = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-
+matchUrl = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=100&beginIndex=0&api_key=[APIKEY]"
 gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
 
 
@@ -27,6 +27,7 @@ accountsFilePath = '../output/list/accounts.csv'
 
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"
+matchDirectoryPath = "../output/match/"
 accountFolderPath = "../output/account/"
 gameIdsFilePath = '../output/list/gameIds.csv'
 
@@ -41,8 +42,8 @@ def getLoLGameListJson(urlTemplate, summonerId):
 
     return getJson(url)
 
-def getLoLGameJson(urlTemplate, gameId):
-    url = urlTemplate.replace("[GAMEID]", gameId)
+def getLoLMatchJson(urlTemplate, accountId):
+    url = urlTemplate.replace("[ACCOUNTID]", accountId)
     url = url.replace("[APIKEY]", a.apiKey)
 
     print(url)

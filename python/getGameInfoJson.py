@@ -13,7 +13,7 @@ with open(utility.accountsFilePath, 'w', encoding="UTF-8") as fAccounts:
         summonerId = summonerId.replace("\n", "")
 
         print("expected summonerId json = " + summonerId)
-        accountJson = utility.getLoLAccountJson(utility.accountUrl, str(summonerId))
+        accountJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(summonerId))
 
         if accountJson == "" or accountJson == "429":
             print("skipped summonerId json = " + summonerId)

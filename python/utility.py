@@ -26,6 +26,7 @@ challengerSummonersFilePath = '../output/list/summonerChallenger.csv'
 masterSummonersFilePath = '../output/list/summonerMaster.csv'
 summonersFilePath = '../output/list/summoners.csv'
 accountsFilePath = '../output/list/accounts.csv'
+gameIdsFilePath = '../output/list/gameIds.csv'
 
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"

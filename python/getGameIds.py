@@ -6,13 +6,13 @@ from datetime import datetime
 
 # accountIds = open("../output/list/accounts.csv").readlines()
 
-with open("../output/list/accounts.csv").readlines() as fAccountIds:
+with open("../output/list/accounts.csv") as fAccountIds:
     accountIds = fAccountIds.readlines()
 
 cnt = 0
 accountIdsLen = len(accountIds)
 
-with open(utility.accountsFilePath, 'w', encoding="UTF-8") as fAccounts:
+with open(utility.gameIdsFilePath, 'w', encoding="UTF-8") as fGameIds:
 
     for accountId in accountIds:
         accountId = accountId.replace("\n", "")
@@ -33,10 +33,9 @@ with open(utility.accountsFilePath, 'w', encoding="UTF-8") as fAccounts:
         if cnt % 10 == 0:
             print(str(cnt) + " / " + str(accountIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
-        with open(utility.matchDirectoryPath + accountId + ".json", "w") as fjson:
-            try:
-               # json.dump(gameJson, fjson, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
-               json.dump(matchJson, fjson, separators=(',', ': '))
-            except UnicodeEncodeError as e:
-                print("UnicodeEncodeError [getMatchjson] accountId = " + accountId)
-                # give up getting json
+        for match in matchJson["matches"]:
+            print(str(match["gameId"]))
+            fGameIds.write(str(match["gameId"]) + "\n")
+
+# delete duplicate ids
+utility.deleteDuplicatedRecords(utility.gameIdsFilePath, False)

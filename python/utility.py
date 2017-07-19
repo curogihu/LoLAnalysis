@@ -38,22 +38,37 @@ def getLoLJson(urlTemplate):
 
     return getJson(url)
 
+
 def getLoLGameListJson(urlTemplate, summonerId):
     url = urlTemplate.replace("[SUMMONERID]", summonerId)
     url = url.replace("[APIKEY]", a.apiKey)
 
     return getJson(url)
 
+
 def getLoLMatchJson(urlTemplate, accountId):
     url = urlTemplate.replace("[ACCOUNTID]", accountId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    print(url)
-
     return getJson(url)
+
 
 def getLoLAccountJson(urlTemplate, summonerId):
     url = urlTemplate.replace("[SUMMONERID]", summonerId)
+    url = url.replace("[APIKEY]", a.apiKey)
+
+    return getJson(url)
+
+
+def getLoLGameInfoJson(urlTemplate, gameId):
+    url = urlTemplate.replace("[GAMEID]", gameId)
+    url = url.replace("[APIKEY]", a.apiKey)
+
+    return getJson(url)
+
+
+def getLoLGameTimelineJson(urlTemplate, gameId):
+    url = urlTemplate.replace("[GAMEID]", gameId)
     url = url.replace("[APIKEY]", a.apiKey)
 
     print(url)
@@ -64,6 +79,8 @@ def getLoLAccountJson(urlTemplate, summonerId):
 def getJson(url):
     cnt = 0
     returnJson = ""
+
+    print(url)
 
     while True:
         sleep(1.3)

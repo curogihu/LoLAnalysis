@@ -1,15 +1,14 @@
 import utility
 from datetime import datetime
 
-with open("../output/list/summoners.csv") as fSummoners:
-    summonerIds = fSummoners.readlines()
+with open("../output/list/gameIds.csv") as fGameIds:
+    gameIds = fGameIds.readlines()
 
 cnt = 0
-summonerIdsLen = len(summonerIds)
+summonerIdsLen = len(gameIds)
 
-with open(utility.accountsFilePath, 'w', encoding="UTF-8") as fAccounts:
 
-    for summonerId in summonerIds:
+    for summonerId in gameIds:
         summonerId = summonerId.replace("\n", "")
 
         print("expected summonerId json = " + summonerId)

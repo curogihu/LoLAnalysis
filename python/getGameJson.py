@@ -4,22 +4,11 @@ import os
 import sys
 from datetime import datetime
 
-# gameDf = pd.read_csv("../output/matchList.csv", header=None)
-# gameDf.columns=['gameId', 'cretaeDate']
-# gameIds = gameDf[0:]["gameId"]
-
 gameIds = open("../output/list/gameIds.csv").readlines()
-
-# print(gameDf[0:]["gameId"])
-
-# gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
-
-# replace to https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/36930?endIndex=100&beginIndex=0&api_key=[APIKEY]
 
 cnt = 0
 gameIdsLen = len(gameIds)
 
-# get each json of game detailed information
 for gameId in gameIds:
     gameId = gameId.replace("\n", "")
 

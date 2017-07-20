@@ -1,26 +1,43 @@
 import utility
+import json
 from datetime import datetime
 
 with open("../output/list/gameIds.csv") as fGameIds:
     gameIds = fGameIds.readlines()
 
 cnt = 0
-summonerIdsLen = len(gameIds)
+gameIdsLen = len(gameIds)
 
+for gameId in gameIds:
+    gameId = gameId.replace("\n", "")
 
-    for summonerId in gameIds:
-        summonerId = summonerId.replace("\n", "")
+    print("expected gameId json = " + gameId)
+    gameInfoJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(gameId))
+#    gameTimelineJson = utility.getLoLGameTimelineJson(utility.gameTimelineDirectoryPath, str(gameId))
 
-        print("expected summonerId json = " + summonerId)
-        accountJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(summonerId))
+    if gameInfoJson == "" or gameInfoJson == "429":
+        print("skipped summonerId json = " + summonerId)
+        continue
 
-        if accountJson == "" or accountJson == "429":
-            print("skipped summonerId json = " + summonerId)
+    cnt += 1
 
-        else:
-            fAccounts.write(str(accountJson["accountId"]) + "\n")
+    if cnt % 10 == 0:
+        print(str(cnt) + " / " + str(gameIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
-        cnt += 1
+    print(utility.gameInfoDirectoryPath + gameId + ".json")
 
-        if cnt % 10 == 0:
-            print(str(cnt) + " / " + str(summonerIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
+    with open(utility.gameInfoDirectoryPath + gameId + ".json", "w") as fJson:
+        try:
+            json.dump(gameInfoJson, fJson, separators=(',', ': '))
+        except UnicodeEncodeError as e:
+            print("UnicodeEncodeError [getMatchjson] gameId = " + gameId)
+            # give up getting json
+"""
+    with open(utility.gameTimelineDirectoryPath + gameId + ".json", "w") as fJson:
+        try:
+            # json.dump(gameJson, fjson, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+            json.dump(gameTimelineJson, fJson, separators=(',', ': '))
+        except UnicodeEncodeError as e:
+            print("UnicodeEncodeError [getMatchjson] gameId = " + gameId)
+            # give up getting json
+"""

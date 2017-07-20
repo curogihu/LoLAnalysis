@@ -20,7 +20,8 @@ matchUrl = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[AC
 gameInfoUrl = "https://na1.api.riotgames.com/lol/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 gameTimelineUrl = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
-rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
+# DEPRECATED on July 24th, 2017
+# rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
 challengerSummonersFilePath = '../output/list/summonerChallenger.csv'
 masterSummonersFilePath = '../output/list/summonerMaster.csv'
@@ -31,6 +32,8 @@ gameIdsFilePath = '../output/list/gameIds.csv'
 gameSummaryFolderPath = '../output/gameSummary/'
 matchVersionDirectoryPath = "../output/game/"
 matchDirectoryPath = "../output/match/"
+gameInfoDirectoryPath = "../output/game/info/"
+gameTimelineDirectoryPath = "../output/game/timeline/"
 accountFolderPath = "../output/account/"
 gameIdsFilePath = '../output/list/gameIds.csv'
 

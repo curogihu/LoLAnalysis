@@ -75,8 +75,6 @@ def getLoLGameTimelineJson(urlTemplate, gameId):
     url = urlTemplate.replace("[GAMEID]", gameId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    print(url)
-
     return getJson(url)
 
 

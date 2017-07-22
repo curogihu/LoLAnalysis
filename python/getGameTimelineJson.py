@@ -12,23 +12,24 @@ for gameId in gameIds:
     gameId = gameId.replace("\n", "")
 
     print("expected gameId json = " + gameId)
-    gameInfoJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(gameId))
-#    gameTimelineJson = utility.getLoLGameTimelineJson(utility.gameTimelineDirectoryPath, str(gameId))
+    gameTimelineJson = utility.getLoLGameTimelineJson(utility.gameTimelineDirectoryPath, str(gameId))
 
-    if gameInfoJson == "" or gameInfoJson == "429":
+    if gameTimelineJson == "" or gameTimelineJson == "429":
         print("skipped summonerId json = " + gameId)
-        continue
+        exit()
 
     cnt += 1
 
     if cnt % 10 == 0:
         print(str(cnt) + " / " + str(gameIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
-    print(utility.gameInfoDirectoryPath + gameId + ".json")
 
-    with open(utility.gameInfoDirectoryPath + gameId + ".json", "w") as fJson:
+
+    print(utility.gameTimelineDirectoryPath + gameId + ".json")
+
+    with open(utility.gameTimelineDirectoryPath + gameId + ".json", "w") as fJson:
         try:
-            json.dump(gameInfoJson, fJson, separators=(',', ': '))
+            json.dump(gameTimelineJson, fJson, separators=(',', ': '))
         except UnicodeEncodeError as e:
             print("UnicodeEncodeError [getMatchjson] gameId = " + gameId)
             # give up getting json

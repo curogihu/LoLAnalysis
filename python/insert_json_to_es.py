@@ -9,8 +9,8 @@ print(os.getcwd())
 sys.path.append(os.getcwd())
 """
 
-import .utility
-import .apiKey as a
+import utility
+import apiKey as a
 
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 

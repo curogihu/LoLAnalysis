@@ -34,7 +34,7 @@ with open(utility.gameIdsFilePath, 'w', encoding="UTF-8") as fGameIds:
             print(str(cnt) + " / " + str(accountIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
         for match in matchJson["matches"]:
-            print(str(match["gameId"]))
+            # print(str(match["gameId"]))
             fGameIds.write(str(match["gameId"]) + "\n")
 
 # delete duplicate ids

@@ -6,7 +6,7 @@ from datetime import datetime
 
 # accountIds = open("../output/list/accounts.csv").readlines()
 
-with open("../output/list/accounts.csv") as fAccountIds:
+with open(utility.accounts_file_path) as fAccountIds:
     accountIds = fAccountIds.readlines()
 
 cnt = 0

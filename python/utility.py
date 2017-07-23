@@ -23,7 +23,7 @@ game_timeline_url = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-mat
 # DEPRECATED on July 24th, 2017
 # rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
-challenger_summoners_file_path = 'C:/output/output/list/summonerChallenger.csv'
+challenger_summoners_file_path = 'C:/output/list/summonerChallenger.csv'
 master_summoners_file_path = 'C:/output/list/summonerMaster.csv'
 summoners_file_path = 'C:/output/list/summoners.csv'
 accounts_file_path = 'C:/output/list/accounts.csv'
@@ -35,6 +35,14 @@ match_directory_path = "C:/output/match/"
 game_info_directory_path = "C:/output/game/info/"
 game_timeline_directory_path = "C:/output/game/timeline/"
 account_folder_path = "C:/output/account/"
+
+
+def get_lol_challenger_summoners_id_json():
+    return get_lol_json(challengers_url)
+
+
+def get_lol_master_summoners_id_json():
+    return get_lol_json(masters_url)
 
 
 def get_lol_json(urlTemplate):

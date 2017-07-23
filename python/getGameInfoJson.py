@@ -2,7 +2,7 @@ import utility
 import json
 from datetime import datetime
 
-with open("../output/list/gameIds.csv") as fGameIds:
+with open(utility.gameids_file_path) as fGameIds:
     gameIds = fGameIds.readlines()
 
 cnt = 0

@@ -6,81 +6,81 @@ import requests
 # DEPRECATED on July 24th, 2017
 # challengersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/challenger?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
 # mastersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/master?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
-challengersUrl = "https://na1.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
-mastersUrl = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+challengers_url = "https://na1.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+masters_url = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 
 # DEPRECATED on July 24th, 2017
 # newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
-accountUrl = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-matchUrl = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=100&beginIndex=0&api_key=[APIKEY]"
+account_url = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
+match_url = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=100&beginIndex=0&api_key=[APIKEY]"
 
 # DEPRECATED on July 24th, 2017
 # gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
 
-gameInfoUrl = "https://na1.api.riotgames.com/lol/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
-gameTimelineUrl = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
+game_info_url = "https://na1.api.riotgames.com/lol/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
+game_timeline_url = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
 # DEPRECATED on July 24th, 2017
 # rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
-challengerSummonersFilePath = 'C:/output/output/list/summonerChallenger.csv'
-masterSummonersFilePath = 'C:/output/list/summonerMaster.csv'
-summonersFilePath = 'C:/output/list/summoners.csv'
-accountsFilePath = 'C:/output/list/accounts.csv'
-gameIdsFilePath = 'C:/output/list/gameIds.csv'
+challenger_summoners_file_path = 'C:/output/output/list/summonerChallenger.csv'
+master_summoners_file_path = 'C:/output/list/summonerMaster.csv'
+summoners_file_path = 'C:/output/list/summoners.csv'
+accounts_file_path = 'C:/output/list/accounts.csv'
+gameids_file_path = 'C:/output/list/gameIds.csv'
 
-gameSummaryFolderPath = 'C:/output/gameSummary/'
-matchVersionDirectoryPath = "C:/output/game/"
-matchDirectoryPath = "C:/output/match/"
-gameInfoDirectoryPath = "C:/output/game/info/"
-gameTimelineDirectoryPath = "C:/output/game/timeline/"
-accountFolderPath = "C:/output/account/"
-gameIdsFilePath = 'C:/output/list/gameIds.csv'
+# game_summary_folderpath = 'C:/output/gameSummary/'
+match_version_directory_path = "C:/output/game/"
+match_directory_path = "C:/output/match/"
+game_info_directory_path = "C:/output/game/info/"
+game_timeline_directory_path = "C:/output/game/timeline/"
+account_folder_path = "C:/output/account/"
 
-def getLoLJson(urlTemplate):
+
+def get_lol_json(urlTemplate):
     url = urlTemplate.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getLoLGameListJson(urlTemplate, summonerId):
+def get_lol_game_list_json(urlTemplate, summonerId):
     url = urlTemplate.replace("[SUMMONERID]", summonerId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getLoLMatchJson(urlTemplate, accountId):
+def get_lol_match_json(urlTemplate, accountId):
     url = urlTemplate.replace("[ACCOUNTID]", accountId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getLoLAccountJson(urlTemplate, summonerId):
+def get_lol_account_json(urlTemplate, summonerId):
     url = urlTemplate.replace("[SUMMONERID]", summonerId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getLoLGameInfoJson(urlTemplate, gameId):
+def get_lol_game_info_json(urlTemplate, gameId):
     url = urlTemplate.replace("[GAMEID]", gameId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getLoLGameTimelineJson(urlTemplate, gameId):
+def get_lol_game_timeline_json(urlTemplate, gameId):
     url = urlTemplate.replace("[GAMEID]", gameId)
     url = url.replace("[APIKEY]", a.apiKey)
 
-    return getJson(url)
+    return get_json(url)
 
 
-def getJson(url):
+def get_json(url):
     cnt = 0
-    returnJson = ""
+    return_json = ""
 
     print(url)
 
@@ -113,15 +113,14 @@ def getJson(url):
 
         if r.status_code == 200:
             print("x rate limit count = " + headers["X-Rate-Limit-Count"])
-            returnJson = r.json()
+            return_json = r.json()
             break
 
         # fail due to reading unexpected match code
         # have to add a function for skipping error match code
         elif r.status_code == 404:
-            returnJson = ""
+            return_json = ""
             break
-
 
         elif r.status_code == 429:
             cnt += 1
@@ -142,7 +141,7 @@ def getJson(url):
             """
 
             # emergency stop
-            returnJson = "429"
+            return_json = "429"
             break;
 
         elif r.status_code >= 500 and r.status_code <= 599:
@@ -151,16 +150,16 @@ def getJson(url):
 
         else:
             print("status code = " + str(r.status_code))
-            returnJson = ""
+            return_json = ""
             break
 
         if cnt >= 5:
             break
 
-    return returnJson
+    return return_json
 
 """
-def getJson(url):
+def get_json(url):
     returnCode = 0
     cnt = 0
 
@@ -185,7 +184,7 @@ def getJson(url):
                 sleep(waitSeconds)
 
             else:
-                print("HTTPError [Function Name - getJson] It ended due to HTTPError error.")
+                print("HTTPError [Function Name - get_json] It ended due to HTTPError error.")
 
 #                for sentence in data:
 #                    print("value = " + sentence)
@@ -205,7 +204,7 @@ def getJson(url):
             data = e.read()
             info = e.info()
 
-            print("Exception [Function Name - getJson] It ended due to unexpectead error.")
+            print("Exception [Function Name - get_json] It ended due to unexpectead error.")
 
             for sentence in data:
                 print("value = " + str(sentence))
@@ -240,7 +239,7 @@ def getJson(url):
         return ""
 """
 
-def deleteDuplicatedRecords(filePath, reverseFlg):
+def delete_duplicated_records(filePath, reverseFlg):
 
     if os.path.exists(filePath):
         # print("passed")

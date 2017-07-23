@@ -37,8 +37,8 @@ for gameId in gameIds:
 
         # detailMatchVersion = gameJson["matchVersion"].split(".")
         #  simpleMatchVersion = str(detailMatchVersion[0]) + "." + str(detailMatchVersion[1])
-        # matchVersionDirectoryPath = "../output/game/" + simpleMatchVersion
-        # matchVersionDirectoryPath = "../output/game/" + simpleMatchVersion
+        # match_version_directory_path = "../output/game/" + simpleMatchVersion
+        # match_version_directory_path = "../output/game/" + simpleMatchVersion
 
         if cnt % 10 == 0:
             print(str(cnt) + " / " + str(gameIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))

@@ -13,7 +13,7 @@ for gameId in gameIds:
 
     print("expected gameId json = " + gameId)
     gameInfoJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(gameId))
-#    gameTimelineJson = utility.getLoLGameTimelineJson(utility.gameTimelineDirectoryPath, str(gameId))
+#    gameTimelineJson = utility.get_lol_game_timeline_json(utility.game_timeline_directory_path, str(gameId))
 
     if gameInfoJson == "" or gameInfoJson == "429":
         print("skipped summonerId json = " + gameId)

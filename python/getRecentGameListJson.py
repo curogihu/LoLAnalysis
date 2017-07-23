@@ -15,7 +15,7 @@ summonersLen = str(len(summonersId))
 for summonerId in summonersId:
     # have to delete new line code
     summonerId = summonerId.replace("\n", "")
-    # url = util.getLoLGameListJson(util.newMatchListUrl, summonerId)
+    # url = util.get_lol_game_list_json(util.newMatchListUrl, summonerId)
     cnt += 1
 
     # print("i = " + str(i) + ", id = [" + summonerId + "]")
@@ -38,7 +38,7 @@ for summonerId in summonersId:
         fGameIds.write(gameId + "\n")
 
         # output game Summary Json, not necessary?
-        # gameSummaryFilePath = util.gameSummaryFolderPath + createDate + "-" + gameId + ".json"
+        # gameSummaryFilePath = util.game_summary_folderpath + createDate + "-" + gameId + ".json"
         gameSummaryFilePath = util.gameSummaryFolderPath + gameId + ".json"
 
         if not os.path.exists(gameSummaryFilePath):

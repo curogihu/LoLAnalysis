@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="getHighRankedSummonersId.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -102,16 +102,16 @@
         <option value="$PROJECT_DIR$/python/insert_json_to_es.py" />
         <option value="$PROJECT_DIR$/python/apiKey.py" />
         <option value="$PROJECT_DIR$/python/getGameInfoJson.py" />
-        <option value="$PROJECT_DIR$/python/utility.py" />
         <option value="$PROJECT_DIR$/python/getGameTimelineJson.py" />
         <option value="$PROJECT_DIR$/python/getGameIds.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/python/utility.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="45" />
+    <option name="x" value="258" />
+    <option name="y" value="43" />
     <option name="width" value="1196" />
     <option name="height" value="678" />
   </component>
@@ -156,38 +156,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,7 +630,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="45" width="1196" height="678" extended-state="0" />
+    <frame x="258" y="43" width="1196" height="678" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -829,24 +798,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/game/info/2508434907.json" />
-    <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <marker date="1500684648019" expanded="true" signature="24:206" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="420:750" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="457:750" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="549:750" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="612:750" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="843:1153" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="876:1153" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="960:1153" ph="..." />
-            <marker date="1500684648019" expanded="true" signature="1019:1153" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/list/gameIds-copy.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -945,40 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="81" />
-          <folding>
-            <marker date="1500731243356" expanded="true" signature="0:67" ph="import ..." />
-            <marker date="1500731243356" expanded="true" signature="69:324" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="564:710" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="946:1083" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="1287:1520" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2156:2233" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2284:2411" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2458:2583" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2633:2760" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2807:2926" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="2977:3096" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3116:5091" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3181:5068" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3328:3487" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3650:3748" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3853:3980" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="3990:4096" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="4131:4177" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="4214:4807" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="4466:4727" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500731243356" expanded="true" signature="4868:4910" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="4925:5028" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="5093:7400" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500731243356" expanded="true" signature="7452:7740" ph="..." />
-            <marker date="1500731243356" expanded="true" signature="7486:7740" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -998,8 +915,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <marker date="1500802200875" expanded="true" signature="0:67" ph="import ..." />
+            <marker date="1500802200875" expanded="true" signature="69:324" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="564:710" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="946:1083" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="1287:1520" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2163:2240" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2291:2418" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2465:2590" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2640:2767" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2814:2933" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="2984:3103" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3123:5098" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3188:5075" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3335:3494" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3657:3755" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3860:3987" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="3997:4103" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="4138:4184" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="4221:4814" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="4473:4734" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1500802200875" expanded="true" signature="4875:4917" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="4932:5035" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="5100:7407" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1500802200875" expanded="true" signature="7459:7747" ph="..." />
+            <marker date="1500802200875" expanded="true" signature="7493:7747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>

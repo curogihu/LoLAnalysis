@@ -23,19 +23,19 @@ gameTimelineUrl = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-match
 # DEPRECATED on July 24th, 2017
 # rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
-challengerSummonersFilePath = '../output/list/summonerChallenger.csv'
-masterSummonersFilePath = '../output/list/summonerMaster.csv'
-summonersFilePath = '../output/list/summoners.csv'
-accountsFilePath = '../output/list/accounts.csv'
-gameIdsFilePath = '../output/list/gameIds.csv'
+challengerSummonersFilePath = 'C:/output/output/list/summonerChallenger.csv'
+masterSummonersFilePath = 'C:/output/list/summonerMaster.csv'
+summonersFilePath = 'C:/output/list/summoners.csv'
+accountsFilePath = 'C:/output/list/accounts.csv'
+gameIdsFilePath = 'C:/output/list/gameIds.csv'
 
-gameSummaryFolderPath = '../output/gameSummary/'
-matchVersionDirectoryPath = "../output/game/"
-matchDirectoryPath = "../output/match/"
-gameInfoDirectoryPath = "../output/game/info/"
-gameTimelineDirectoryPath = "../output/game/timeline/"
-accountFolderPath = "../output/account/"
-gameIdsFilePath = '../output/list/gameIds.csv'
+gameSummaryFolderPath = 'C:/output/gameSummary/'
+matchVersionDirectoryPath = "C:/output/game/"
+matchDirectoryPath = "C:/output/match/"
+gameInfoDirectoryPath = "C:/output/game/info/"
+gameTimelineDirectoryPath = "C:/output/game/timeline/"
+accountFolderPath = "C:/output/account/"
+gameIdsFilePath = 'C:/output/list/gameIds.csv'
 
 def getLoLJson(urlTemplate):
     url = urlTemplate.replace("[APIKEY]", a.apiKey)

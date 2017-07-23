@@ -3,25 +3,16 @@ import apiKey as a
 from time import sleep
 import requests
 
-# DEPRECATED on July 24th, 2017
-# challengersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/challenger?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
-# mastersUrl = "https://na.api.pvp.net/api/lol/na/v2.5/league/master?type=RANKED_SOLO_5x5&api_key=[APIKEY]"
-challengers_url = "https://na1.api.riotgames.com/lol/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
-masters_url = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+server_url = "https://na1.api.riotgames.com/lol"
 
-# DEPRECATED on July 24th, 2017
-# newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
-account_url = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-match_url = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=20&beginIndex=0&api_key=[APIKEY]"
+challengers_url = server_url + "/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+masters_url = server_url + "/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 
-# DEPRECATED on July 24th, 2017
-# gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
+account_url = server_url + "/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
+match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=20&beginIndex=0&api_key=[APIKEY]"
 
 game_info_url = "https://na1.api.riotgames.com/lol/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = "https://na1.api.riotgames.com/lol/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
-
-# DEPRECATED on July 24th, 2017
-# rankedGameListUrl = "https://na.api.pvp.net/api/lol/na/v2.2/matchlist/by-summoner/[SUMMONERID]?rankedQueues=TEAM_BUILDER_RANKED_SOLO&beginTime=1481108400000&beginIndex=0&endIndex=30&api_key=[APIKEY]"
 
 challenger_summoners_file_path = 'C:/output/list/summonerChallenger.csv'
 master_summoners_file_path = 'C:/output/list/summonerMaster.csv'
@@ -30,7 +21,6 @@ accounts_file_path = 'C:/output/list/accounts.csv'
 game_ids_file_path = 'C:/output/list/game_ids.csv'
 timelines_file_path = 'C:/output/list/timelines.csv'
 
-# game_summary_folderpath = 'C:/output/gameSummary/'
 match_version_directory_path = "C:/output/game/"
 match_directory_path = "C:/output/match/"
 game_info_directory_path = "C:/output/game/info/"

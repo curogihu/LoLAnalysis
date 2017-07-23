@@ -17,7 +17,7 @@ es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 # jsonFiles = glob.glob("---------/game/info/*.*")
 
 
-with open("../output/list/gameIds.csv") as fGameIds:
+with open("../output/list/game_ids.csv") as fGameIds:
     gameIds = fGameIds.readlines()
 
 cnt = 0
@@ -28,7 +28,7 @@ i = 1
 for gameId in gameIds:
     gameId = gameId.replace("\n", "")
 
-    print("expected gameId json = " + gameId)
+    print("expected game_id json = " + gameId)
     gameInfoJson = utility.getLoLGameInfoJson(utility.gameInfoUrl, str(gameId))
 
     url = utility.gameInfoUrl.replace("")

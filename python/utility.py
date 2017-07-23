@@ -27,7 +27,7 @@ challenger_summoners_file_path = 'C:/output/list/summonerChallenger.csv'
 master_summoners_file_path = 'C:/output/list/summonerMaster.csv'
 summoners_file_path = 'C:/output/list/summoners.csv'
 accounts_file_path = 'C:/output/list/accounts.csv'
-gameids_file_path = 'C:/output/list/gameIds.csv'
+game_ids_file_path = 'C:/output/list/game_ids.csv'
 
 # game_summary_folderpath = 'C:/output/gameSummary/'
 match_version_directory_path = "C:/output/game/"

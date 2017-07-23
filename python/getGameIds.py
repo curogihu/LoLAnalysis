@@ -4,25 +4,25 @@ import os
 import sys
 from datetime import datetime
 
-# accountIds = open("../output/list/accounts.csv").readlines()
+# account_ids = open("../output/list/accounts.csv").readlines()
 
-with open(utility.accounts_file_path) as fAccountIds:
-    accountIds = fAccountIds.readlines()
+with open(utility.accounts_file_path) as f_account_ids:
+    account_ids = f_account_ids.readlines()
 
 cnt = 0
-accountIdsLen = len(accountIds)
+account_ids_len = len(account_ids)
 
-with open(utility.gameIdsFilePath, 'w', encoding="UTF-8") as fGameIds:
+with open(utility.game_ids_file_path, 'w', encoding="UTF-8") as f_game_ids:
 
-    for accountId in accountIds:
-        accountId = accountId.replace("\n", "")
+    for account_id in account_ids:
+        account_id = account_id.replace("\n", "")
 
-        print("expected account json = " + accountId)
+        print("expected account json = " + account_id)
 
-        matchJson = utility.getLoLMatchJson(utility.matchUrl, accountId)
+        match_json = utility.getLoLMatchJson(utility.matchUrl, account_id)
 
-        if matchJson == "" or matchJson == "429":
-            print("get json value is [" + matchJson + "]")
+        if match_json == "" or match_json == "429":
+            print("get json value is [" + match_json + "]")
             print("Unexpectational error, so it ended.")
             # sys.exit()
 
@@ -31,11 +31,11 @@ with open(utility.gameIdsFilePath, 'w', encoding="UTF-8") as fGameIds:
         cnt += 1
 
         if cnt % 10 == 0:
-            print(str(cnt) + " / " + str(accountIdsLen) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
+            print(str(cnt) + " / " + str(account_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
-        for match in matchJson["matches"]:
-            # print(str(match["gameId"]))
-            fGameIds.write(str(match["gameId"]) + "\n")
+        for match in match_json["matches"]:
+            # print(str(match["game_id"]))
+            f_game_ids.write(str(match["game_id"]) + "\n")
 
 # delete duplicate ids
-utility.deleteDuplicatedRecords(utility.gameIdsFilePath, False)
+utility.delete_duplicated_records(utility.game_ids_file_path, False)

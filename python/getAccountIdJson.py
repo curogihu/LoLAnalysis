@@ -13,13 +13,13 @@ with open(utility.accounts_file_path, 'w', encoding="UTF-8") as fAccounts:
         summonerId = summonerId.replace("\n", "")
 
         print("expected summonerId json = " + summonerId)
-        accountJson = utility.get_lol_account_json(utility.accountUrl, str(summonerId))
+        accountJson = utility.get_lol_account_json(utility.account_url, str(summonerId))
 
         if accountJson == "" or accountJson == "429":
             print("skipped summonerId json = " + summonerId)
 
         else:
-            fAccounts.write(str(accountJson["accountId"]) + "\n")
+            fAccounts.write(str(accountJson["account_id"]) + "\n")
 
         cnt += 1
 

@@ -31,14 +31,14 @@ for summonerId in summonersId:
     fGameIds = open(util.gameIdsFilePath, 'a', encoding="UTF-8")
 
     for game in gameListJson["games"]:
-        gameId = str(game["gameId"])
+        gameId = str(game["game_id"])
 #        createDate = str(game["createDate"])
 
         # preparation for getting detailed game information
         fGameIds.write(gameId + "\n")
 
         # output game Summary Json, not necessary?
-        # gameSummaryFilePath = util.game_summary_folderpath + createDate + "-" + gameId + ".json"
+        # gameSummaryFilePath = util.game_summary_folderpath + createDate + "-" + game_id + ".json"
         gameSummaryFilePath = util.gameSummaryFolderPath + gameId + ".json"
 
         if not os.path.exists(gameSummaryFilePath):

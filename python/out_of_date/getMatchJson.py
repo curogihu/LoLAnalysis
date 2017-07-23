@@ -5,12 +5,12 @@ import sys
 from datetime import datetime
 
 # gameDf = pd.read_csv("../output/matchList.csv", header=None)
-# gameDf.columns=['gameId', 'cretaeDate']
-# gameIds = gameDf[0:]["gameId"]
+# gameDf.columns=['game_id', 'cretaeDate']
+# game_ids = gameDf[0:]["game_id"]
 
 accountIds = open("../output/list/accounts.csv").readlines()
 
-# print(gameDf[0:]["gameId"])
+# print(gameDf[0:]["game_id"])
 
 # gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
 
@@ -47,5 +47,5 @@ for accountId in accountIds:
            # json.dump(gameJson, fjson, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
            json.dump(matchJson, fjson, separators=(',', ': '))
         except UnicodeEncodeError as e:
-            print("UnicodeEncodeError [getMatchjson] accountId = " + accountId)
+            print("UnicodeEncodeError [getMatchjson] account_id = " + accountId)
             # give up getting json

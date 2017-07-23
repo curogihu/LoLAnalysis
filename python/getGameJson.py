@@ -4,7 +4,7 @@ import os
 import sys
 from datetime import datetime
 
-gameIds = open("../output/list/gameIds.csv").readlines()
+gameIds = open("../output/list/game_ids.csv").readlines()
 
 cnt = 0
 gameIdsLen = len(gameIds)
@@ -15,16 +15,16 @@ for gameId in gameIds:
     # get matchVersion from game json and decide a folder to put each json in the near future
     # "matchVersion": "7.4.176.9828",
 
-    print("expected gameId json = " + gameId)
+    print("expected game_id json = " + gameId)
 
     if os.path.exists(utility.matchVersionDirectoryPath + gameId + ".json"):
         # exclude from target files
         gameIdsLen -= 1
-        print("skipped gameId json = " + gameId + "\n")
+        print("skipped game_id json = " + gameId + "\n")
         continue
 
     else:
-        # print("we have to create " + gameId + ".csv!")
+        # print("we have to create " + game_id + ".csv!")
 
         gameJson = utility.getLoLGameJson(utility.gameUrl, gameId)
 
@@ -53,7 +53,7 @@ for gameId in gameIds:
            # json.dump(gameJson, fjson, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
            json.dump(gameJson, fjson, separators=(',', ': '))
         except UnicodeEncodeError as e:
-            print("UnicodeEncodeError [getGamejson] gameId = " + gameId)
+            print("UnicodeEncodeError [getGamejson] game_id = " + gameId)
             # give up getting json
 
         fjson.close()

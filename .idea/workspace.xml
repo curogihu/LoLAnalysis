@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getHighRankedSummonersId.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
+      <file leaf-file-name="getGameInfoJson.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,6 +65,7 @@
       <find>matchDirectoryPath</find>
       <find>/</find>
       <find>/</find>
+      <find>account_url</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -101,19 +102,19 @@
         <option value="$PROJECT_DIR$/python/apiKey.py" />
         <option value="$PROJECT_DIR$/python/getGameTimelineJson.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/python/getHighRankedSummonersId.py" />
+        <option value="$PROJECT_DIR$/python/getAccountIdJson.py" />
         <option value="$PROJECT_DIR$/python/utility.py" />
         <option value="$PROJECT_DIR$/python/getGameIds.py" />
         <option value="$PROJECT_DIR$/python/getGameInfoJson.py" />
-        <option value="$PROJECT_DIR$/python/getAccountIdJson.py" />
-        <option value="$PROJECT_DIR$/python/getHighRankedSummonersId.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-59" />
-    <option name="y" value="72" />
-    <option name="width" value="1196" />
-    <option name="height" value="678" />
+    <option name="x" value="69" />
+    <option name="y" value="44" />
+    <option name="width" value="1284" />
+    <option name="height" value="613" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -173,8 +174,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\es" />
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\out_of_date" />
+      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\es" />
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\temporary" />
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\analyze" />
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\spark" />
@@ -198,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getHighRankedSummonersId">
+  <component name="RunManager" selected="Python.getAccountIdJson">
     <configuration default="false" name="getGameTimelineJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -566,10 +567,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getGameInfoJson" />
-        <item index="2" class="java.lang.String" itemvalue="Python.getGameIds" />
-        <item index="3" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getAccountIdJson" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getHighRankedSummonersId" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getGameInfoJson" />
+        <item index="3" class="java.lang.String" itemvalue="Python.getGameIds" />
         <item index="4" class="java.lang.String" itemvalue="Python.getGameTimelineJson" />
       </list>
     </recent_temporary>
@@ -633,7 +634,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-59" y="72" width="1196" height="678" extended-state="1" />
+    <frame x="69" y="44" width="1284" height="613" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -644,14 +645,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.318569" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.318569" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22966102" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13117547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137224" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3659004" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,11 +771,11 @@
         <state relative-caret-position="289">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
-            <marker date="1500731630784" expanded="false" signature="0:56" ph="import ..." />
-            <marker date="1500731630784" expanded="true" signature="204:1044" ph="..." />
-            <marker date="1500731630784" expanded="true" signature="452:520" ph="..." />
-            <marker date="1500731630784" expanded="true" signature="811:1044" ph="..." />
-            <marker date="1500731630784" expanded="true" signature="935:1044" ph="..." />
+            <marker date="1500809937260" expanded="false" signature="0:56" ph="import ..." />
+            <marker date="1500809937260" expanded="true" signature="205:1047" ph="..." />
+            <marker date="1500809937260" expanded="true" signature="454:522" ph="..." />
+            <marker date="1500809937260" expanded="true" signature="813:1047" ph="..." />
+            <marker date="1500809937260" expanded="true" signature="937:1047" ph="..." />
           </folding>
         </state>
       </provider>
@@ -848,35 +849,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1500803023160" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500803023160" expanded="true" signature="194:2088" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="238:365" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="490:623" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="634:2088" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="808:946" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="974:1286" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="1745:1917" ph="..." />
-            <marker date="1500803023160" expanded="true" signature="1957:2065" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/out_of_date/getRecentGameListJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1500803176928" expanded="false" signature="0:108" ph="import ..." />
-            <marker date="1500803176928" expanded="true" signature="379:1714" ph="..." />
-            <marker date="1500803176928" expanded="true" signature="963:1714" ph="..." />
-            <marker date="1500803176928" expanded="true" signature="1001:1107" ph="..." />
-            <marker date="1500803176928" expanded="true" signature="1155:1296" ph="..." />
-            <marker date="1500803176928" expanded="true" signature="1425:1714" ph="..." />
+            <marker date="1500809937332" expanded="false" signature="0:108" ph="import ..." />
+            <marker date="1500809937332" expanded="true" signature="379:1716" ph="..." />
+            <marker date="1500809937332" expanded="true" signature="963:1716" ph="..." />
+            <marker date="1500809937332" expanded="true" signature="1002:1108" ph="..." />
+            <marker date="1500809937332" expanded="true" signature="1156:1298" ph="..." />
+            <marker date="1500809937332" expanded="true" signature="1427:1716" ph="..." />
           </folding>
         </state>
       </provider>
@@ -898,14 +881,14 @@
         <state relative-caret-position="221">
           <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <marker date="1500684648021" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500684648021" expanded="true" signature="79:216" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="280:544" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="753:1676" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="965:1112" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="1335:1676" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="1348:1521" ph="..." />
-            <marker date="1500684648021" expanded="true" signature="1561:1676" ph="..." />
+            <marker date="1500809937463" expanded="false" signature="0:77" ph="import ..." />
+            <marker date="1500809937463" expanded="true" signature="79:219" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="283:548" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="757:1681" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="969:1116" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="1339:1681" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="1352:1525" ph="..." />
+            <marker date="1500809937463" expanded="true" signature="1565:1681" ph="..." />
           </folding>
         </state>
       </provider>
@@ -915,34 +898,9 @@
         <state relative-caret-position="272">
           <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
-            <marker date="1500730936265" expanded="false" signature="0:79" ph="import ..." />
-            <marker date="1500730936265" expanded="true" signature="81:151" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500730936265" expanded="true" signature="453:1013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/deleteDuplicatedData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1492819879724" expanded="true" signature="49:315" ph="..." />
-            <marker date="1492819879724" expanded="true" signature="83:315" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <marker date="1500806704837" expanded="false" signature="0:56" ph="import ..." />
-            <marker date="1500806704837" expanded="true" signature="201:1109" ph="..." />
-            <marker date="1500806704837" expanded="true" signature="529:599" ph="..." />
-            <marker date="1500806704837" expanded="true" signature="880:1109" ph="..." />
-            <marker date="1500806704837" expanded="true" signature="1000:1109" ph="..." />
+            <marker date="1500809937403" expanded="false" signature="0:79" ph="import ..." />
+            <marker date="1500809937403" expanded="true" signature="81:151" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1500809937403" expanded="true" signature="454:1015" ph="..." />
           </folding>
         </state>
       </provider>
@@ -955,72 +913,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/utility.py">
+    <entry file="file://$PROJECT_DIR$/python/out_of_date/deleteDuplicatedData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="27" />
           <folding>
-            <marker date="1500805596490" expanded="true" signature="0:67" ph="import ..." />
-            <marker date="1500805596490" expanded="true" signature="69:324" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="566:712" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="950:1087" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="1295:1528" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2162:2203" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2245:2282" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2315:2393" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2448:2576" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2626:2752" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2805:2933" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="2984:3104" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="3159:3279" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="3300:5280" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="3366:5256" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="3513:3672" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="3835:3933" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="4038:4166" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="4176:4282" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="4317:4364" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="4400:4994" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="4652:4913" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500805596490" expanded="true" signature="5055:5097" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="5112:5216" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="5282:7592" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500805596490" expanded="true" signature="7646:7934" ph="..." />
-            <marker date="1500805596490" expanded="true" signature="7680:7934" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/getGameIds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <marker date="1500806388720" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500806388720" expanded="true" signature="350:1072" ph="..." />
-            <marker date="1500806388720" expanded="true" signature="384:1072" ph="..." />
-            <marker date="1500806388720" expanded="true" signature="612:775" ph="..." />
-            <marker date="1500806388720" expanded="true" signature="974:1072" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <marker date="1500807574863" expanded="false" signature="0:44" ph="import ..." />
-            <marker date="1500807574863" expanded="true" signature="259:845" ph="..." />
-            <marker date="1500807574863" expanded="true" signature="295:845" ph="..." />
+            <marker date="1492819879724" expanded="true" signature="49:315" ph="..." />
+            <marker date="1492819879724" expanded="true" signature="83:315" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/getHighRankedSummonersId.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="226">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <marker date="1500807922096" expanded="true" signature="16:198" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="442:785" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="481:785" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="580:785" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="645:785" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="884:1207" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="919:1207" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="1010:1207" ph="..." />
+            <marker date="1500807922096" expanded="true" signature="1071:1207" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <marker date="1500809349189" expanded="false" signature="0:44" ph="import ..." />
+            <marker date="1500809349189" expanded="true" signature="259:847" ph="..." />
+            <marker date="1500809349189" expanded="true" signature="295:847" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getGameIds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <marker date="1500809937380" expanded="false" signature="0:77" ph="import ..." />
+            <marker date="1500809937380" expanded="true" signature="364:1103" ph="..." />
+            <marker date="1500809937380" expanded="true" signature="400:1103" ph="..." />
+            <marker date="1500809937380" expanded="true" signature="635:799" ph="..." />
+            <marker date="1500809937380" expanded="true" signature="1001:1103" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getGameJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <marker date="1500809937353" expanded="false" signature="0:77" ph="import ..." />
+            <marker date="1500809937353" expanded="true" signature="195:2093" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="239:366" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="492:626" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="637:2093" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="812:950" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="978:1290" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="1749:1921" ph="..." />
+            <marker date="1500809937353" expanded="true" signature="1961:2070" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1500809937284" expanded="true" signature="0:67" ph="import ..." />
+            <marker date="1500809937284" expanded="true" signature="69:324" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="566:712" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="950:1087" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="1295:1528" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2164:2205" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2247:2284" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2317:2395" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2450:2578" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2628:2754" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2807:2935" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="2986:3106" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="3161:3281" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="3302:5282" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="3368:5258" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="3515:3674" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="3837:3935" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="4040:4168" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="4178:4284" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="4319:4366" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="4402:4996" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="4654:4915" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1500809937284" expanded="true" signature="5057:5099" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="5114:5218" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="5284:7594" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1500809937284" expanded="true" signature="7648:7936" ph="..." />
+            <marker date="1500809937284" expanded="true" signature="7682:7936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

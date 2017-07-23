@@ -12,7 +12,7 @@ masters_url = "https://na1.api.riotgames.com/lol/league/v3/masterleagues/by-queu
 # DEPRECATED on July 24th, 2017
 # newMatchListUrl = "https://na.api.pvp.net/api/lol/na/v1.3/game/by-summoner/[SUMMONERID]/recent?api_key=[APIKEY]"
 account_url = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-match_url = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=100&beginIndex=0&api_key=[APIKEY]"
+match_url = "https://na1.api.riotgames.com/lol/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=20&beginIndex=0&api_key=[APIKEY]"
 
 # DEPRECATED on July 24th, 2017
 # gameUrl = "https://na.api.pvp.net/api/lol/na/v2.2/match/[GAMEID]?includeTimeline=True&api_key=[APIKEY]"
@@ -28,6 +28,7 @@ master_summoners_file_path = 'C:/output/list/summonerMaster.csv'
 summoners_file_path = 'C:/output/list/summoners.csv'
 accounts_file_path = 'C:/output/list/accounts.csv'
 game_ids_file_path = 'C:/output/list/game_ids.csv'
+timelines_file_path = 'C:/output/list/timelines.csv'
 
 # game_summary_folderpath = 'C:/output/gameSummary/'
 match_version_directory_path = "C:/output/game/"

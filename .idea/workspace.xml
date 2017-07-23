@@ -20,15 +20,45 @@
     <favorites_list name="LoLAnalyse" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="utility.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAccountId.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/getAccountId.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getGameIds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/getGameIds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getGameInfoJson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,10 +144,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="44" />
-    <option name="width" value="1284" />
-    <option name="height" value="613" />
+    <option name="x" value="170" />
+    <option name="y" value="23" />
+    <option name="width" value="1196" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -135,8 +165,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,6 +193,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,7 +281,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalyse" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/getAccountIdJson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/getAccountId.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -487,6 +517,44 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -559,6 +627,25 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
       <method />
     </configuration>
     <list size="5">
@@ -637,7 +724,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="44" width="1284" height="613" extended-state="0" />
+    <frame x="170" y="23" width="1196" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -648,14 +735,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31800765" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31800765" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137224" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3659004" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26337793" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -670,6 +756,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3659004" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -706,13 +793,7 @@
     <entry file="file://$PROJECT_DIR$/output/game/2433985902.json" />
     <entry file="file://$PROJECT_DIR$/output/game/2433925123.json" />
     <entry file="file://$PROJECT_DIR$/python/getMatchListJson.py" />
-    <entry file="file://$PROJECT_DIR$/output/list/summonerChallenger.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3152">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/list/summonerChallenger.csv" />
     <entry file="file://$PROJECT_DIR$/python/apiKey.py" />
     <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,20 +803,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/target/matchResult.csv" />
-    <entry file="file://$PROJECT_DIR$/output/target/teamResult.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/list/summonerMaster.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/target/teamResult.csv" />
+    <entry file="file://$PROJECT_DIR$/output/list/summonerMaster.csv" />
     <entry file="file://$PROJECT_DIR$/output/game/156090.json" />
     <entry file="file://$PROJECT_DIR$/output/game/193759.json" />
     <entry file="file://$PROJECT_DIR$/output/game/19067259.json" />
@@ -754,35 +823,13 @@
     <entry file="file://$PROJECT_DIR$/output/match/156219.json" />
     <entry file="file://$PROJECT_DIR$/output/match/36930.json" />
     <entry file="file://$PROJECT_DIR$/output/list/accounts.csv" />
-    <entry file="file://$PROJECT_DIR$/output/list/gameIds.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/list/gameIds.csv" />
     <entry file="file://$PROJECT_DIR$/output/game/info/2508434907.json" />
-    <entry file="file://$PROJECT_DIR$/output/list/gameIds-copy.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/list/gameIds-copy.csv" />
     <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <marker date="1492819879732" expanded="true" signature="307:403" ph="..." />
-            <marker date="1492819879732" expanded="true" signature="428:524" ph="..." />
-            <marker date="1492819879732" expanded="true" signature="877:926" ph="..." />
-            <marker date="1492819879732" expanded="true" signature="928:1013" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1492819879732" expanded="true" signature="1041:1160" ph="..." />
-            <marker date="1492819879732" expanded="true" signature="1184:1247" ph="..." />
-            <marker date="1492819879732" expanded="true" signature="1251:1386" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1492819879732" expanded="true" signature="1388:1757" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <marker date="1493444133893" expanded="false" signature="0:115" ph="import ..." />
-            <marker date="1493444133893" expanded="true" signature="313:388" ph="..." />
-            <marker date="1493444133893" expanded="true" signature="402:486" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1493444133893" expanded="true" signature="488:605" ph="..." />
-            <marker date="1493444133893" expanded="true" signature="743:795" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,19 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1493441276900" expanded="false" signature="25:65" ph="import ..." />
-            <marker date="1493441276900" expanded="true" signature="380:2717" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="605:1539" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="813:1139" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="915:1139" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="1153:1539" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="1256:1539" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="1484:1539" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="1714:2088" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="2268:2650" ph="..." />
-            <marker date="1493441276900" expanded="true" signature="2742:2948" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1492819879739" expanded="true" signature="271:201772" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,14 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1500809937332" expanded="false" signature="0:108" ph="import ..." />
-            <marker date="1500809937332" expanded="true" signature="379:1716" ph="..." />
-            <marker date="1500809937332" expanded="true" signature="963:1716" ph="..." />
-            <marker date="1500809937332" expanded="true" signature="1002:1108" ph="..." />
-            <marker date="1500809937332" expanded="true" signature="1156:1298" ph="..." />
-            <marker date="1500809937332" expanded="true" signature="1427:1716" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,11 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1500684648022" expanded="false" signature="0:75" ph="import ..." />
-            <marker date="1500684648022" expanded="true" signature="425:1022" ph="..." />
-            <marker date="1500684648022" expanded="true" signature="837:1022" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,16 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <marker date="1500809937463" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500809937463" expanded="true" signature="79:219" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="283:548" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="757:1681" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="969:1116" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="1339:1681" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="1352:1525" ph="..." />
-            <marker date="1500809937463" expanded="true" signature="1565:1681" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,11 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <marker date="1500809937403" expanded="false" signature="0:79" ph="import ..." />
-            <marker date="1500809937403" expanded="true" signature="81:151" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1500809937403" expanded="true" signature="454:1015" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,22 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <marker date="1492819879724" expanded="true" signature="49:315" ph="..." />
-            <marker date="1492819879724" expanded="true" signature="83:315" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/getAccountIdJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1500809349189" expanded="false" signature="0:44" ph="import ..." />
-            <marker date="1500809349189" expanded="true" signature="259:847" ph="..." />
-            <marker date="1500809349189" expanded="true" signature="295:847" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,31 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <marker date="1500809937353" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500809937353" expanded="true" signature="195:2093" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="239:366" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="492:626" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="637:2093" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="812:950" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="978:1290" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="1749:1921" ph="..." />
-            <marker date="1500809937353" expanded="true" signature="1961:2070" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <marker date="1500809943968" expanded="false" signature="0:56" ph="import ..." />
-            <marker date="1500809943968" expanded="true" signature="211:1043" ph="..." />
-            <marker date="1500809943968" expanded="true" signature="446:517" ph="..." />
-            <marker date="1500809943968" expanded="true" signature="809:1043" ph="..." />
-            <marker date="1500809943968" expanded="true" signature="932:1043" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,17 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <marker date="1500807922096" expanded="true" signature="16:198" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="442:785" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="481:785" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="580:785" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="645:785" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="884:1207" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="919:1207" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="1010:1207" ph="..." />
-            <marker date="1500807922096" expanded="true" signature="1071:1207" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,13 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1500814687522" expanded="false" signature="0:56" ph="import ..." />
-            <marker date="1500814687522" expanded="true" signature="212:1056" ph="..." />
-            <marker date="1500814687522" expanded="true" signature="452:523" ph="..." />
-            <marker date="1500814687522" expanded="true" signature="823:1056" ph="..." />
-            <marker date="1500814687522" expanded="true" signature="945:1056" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,28 +921,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getAccountId.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/getGameIds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <marker date="1500809937380" expanded="false" signature="0:77" ph="import ..." />
-            <marker date="1500809937380" expanded="true" signature="364:1103" ph="..." />
-            <marker date="1500809937380" expanded="true" signature="400:1103" ph="..." />
-            <marker date="1500809937380" expanded="true" signature="635:799" ph="..." />
-            <marker date="1500809937380" expanded="true" signature="1001:1103" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/getGameInfoJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

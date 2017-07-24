@@ -29,11 +29,11 @@ account_folder_path = "C:/output/account/"
 """
 
 # I' like to set a path, such as C:/output/game/
-match_version_directory_path = os.path.join("C:", "output", "game", "")
-match_directory_path = os.path.join("C:", "output", "match", "")
-game_info_directory_path = os.path.join("C:", "output", "game", "info", "")
-game_timeline_directory_path = os.path.join("C:", "output", "game", "timeline", "")
-account_folder_path = os.path.join("C:", "output", "account", "")
+match_version_directory_path = os.path.join("C:", os.sep, "output", "game", "")
+match_directory_path = os.path.join("C:", os.sep, "output", "match", "")
+game_info_directory_path = os.path.join("C:", os.sep, "output", "game", "info", "")
+game_timeline_directory_path = os.path.join("C:", os.sep, "output", "game", "timeline", "")
+account_folder_path = os.path.join("C:", os.sep, "output", "account", "")
 
 
 def get_lol_challenger_summoners_id_json():

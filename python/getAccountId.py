@@ -19,7 +19,7 @@ with open(utility.accounts_file_path, 'w', encoding="UTF-8") as fAccounts:
             print("skipped summonerId json = " + summonerId)
 
         else:
-            fAccounts.write(str(accountJson["account_id"]) + "\n")
+            fAccounts.write(str(accountJson["accountId"]) + "\n")
 
         cnt += 1
 

@@ -19,7 +19,7 @@ with open(utility.game_ids_file_path, 'w', encoding="UTF-8") as f_game_ids:
 
         print("expected account json = " + account_id)
 
-        match_json = utility.getLoLMatchJson(utility.matchUrl, account_id)
+        match_json = utility.get_lol_match_json(utility.match_url, account_id)
 
         if match_json == "" or match_json == "429":
             print("get json value is [" + match_json + "]")
@@ -35,7 +35,7 @@ with open(utility.game_ids_file_path, 'w', encoding="UTF-8") as f_game_ids:
 
         for match in match_json["matches"]:
             # print(str(match["game_id"]))
-            f_game_ids.write(str(match["game_id"]) + "\n")
+            f_game_ids.write(str(match["gameId"]) + "\n")
 
 # delete duplicate ids
 utility.delete_duplicated_records(utility.game_ids_file_path, False)

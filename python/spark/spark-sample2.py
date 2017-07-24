@@ -10,7 +10,10 @@ spark = SparkSession \
     .getOrCreate()
 
 sc = spark.sparkContext
-path = "../output/game-test/*.json"
+# path = "../output/game-test/*.json"
+
+# the path is for mac
+path = "/Applications/match/*.json"
 matchDf = spark.read.json(path)
 
 # tmp = sc.parallelize(matchDf)

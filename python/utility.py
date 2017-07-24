@@ -13,12 +13,12 @@ game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
 # refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
-challenger_summoners_file_path = os.path.join(['C:', 'output', 'list', 'summonerChallenger.csv'])
-master_summoners_file_path = os.path.join(['C:', 'output', 'list', 'summonerMaster.csv'])
-summoners_file_path = os.path.join(['C:', 'output', 'list', 'summoners.csv'])
-accounts_file_path = os.path.join(['C:', 'output', 'list', 'accounts.csv'])
-game_ids_file_path = os.path.join(['C:', 'output', 'list', 'game_ids.csv'])
-timelines_file_path = os.path.join(['C:', 'output', 'list', 'timelines.csv'])
+challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
+master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
+summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summoners.csv')
+accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv')
+game_ids_file_path = os.path.join('C:', os.sep, 'output', 'list', 'game_ids.csv')
+timelines_file_path = os.path.join('C:', os.sep, 'output', 'list', 'timelines.csv')
 
 """
 match_version_directory_path = "C:/output/game/"
@@ -28,11 +28,12 @@ game_timeline_directory_path = "C:/output/game/timeline/"
 account_folder_path = "C:/output/account/"
 """
 
-match_version_directory_path = os.path.join(["C:", "output", "game", ""])
-match_directory_path = os.path.join(["C:", "output", "match", ""])
-game_info_directory_path = os.path.join(["C:", "output", "game", "info", ""])
-game_timeline_directory_path = os.path.join(["C:", "output", "game", "timeline", ""])
-account_folder_path = os.path.join(["C:", "output", "account", ""])
+# I' like to set a path, such as C:/output/game/
+match_version_directory_path = os.path.join("C:", "output", "game", "")
+match_directory_path = os.path.join("C:", "output", "match", "")
+game_info_directory_path = os.path.join("C:", "output", "game", "info", "")
+game_timeline_directory_path = os.path.join("C:", "output", "game", "timeline", "")
+account_folder_path = os.path.join("C:", "output", "account", "")
 
 
 def get_lol_challenger_summoners_id_json():

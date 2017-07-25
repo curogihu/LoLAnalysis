@@ -6,3 +6,5 @@
 .idea/workspace.xml
 python/__pycache__/utility.cpython-35.pyc
 .idea/workspace.xml
+
+*.pyc

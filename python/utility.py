@@ -3,7 +3,8 @@ import apiKey as a
 from time import sleep
 import requests
 
-server_url = "https://na1.api.riotgames.com/lol"
+# server_url = "https://na1.api.riotgames.com/lol"
+server_url = "https://jp1.api.riotgames.com/lol"
 
 challengers_url = server_url + "/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 masters_url = server_url + "/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
@@ -12,6 +13,8 @@ match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=2
 game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
+# for Windows setting
+""" 
 # refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
 challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
 master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
@@ -20,20 +23,30 @@ accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv'
 game_ids_file_path = os.path.join('C:', os.sep, 'output', 'list', 'game_ids.csv')
 timelines_file_path = os.path.join('C:', os.sep, 'output', 'list', 'timelines.csv')
 
-"""
-match_version_directory_path = "C:/output/game/"
-match_directory_path = "C:/output/match/"
-game_info_directory_path = "C:/output/game/info/"
-game_timeline_directory_path = "C:/output/game/timeline/"
-account_folder_path = "C:/output/account/"
-"""
-
 # I' like to set a path, such as C:/output/game/
 match_version_directory_path = os.path.join("C:", os.sep, "output", "game", "")
 match_directory_path = os.path.join("C:", os.sep, "output", "match", "")
 game_info_directory_path = os.path.join("C:", os.sep, "output", "game", "info", "")
 game_timeline_directory_path = os.path.join("C:", os.sep, "output", "game", "timeline", "")
 account_folder_path = os.path.join("C:", os.sep, "output", "account", "")
+"""
+
+# for Mac setting
+
+# refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
+challenger_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerChallenger.csv')
+master_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerMaster.csv')
+summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summoners.csv')
+accounts_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'accounts.csv')
+game_ids_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'game_ids.csv')
+timelines_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'timelines.csv')
+
+# I' like to set a path, such as C:/output/game/
+match_version_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "")
+match_directory_path = os.path.join("", os.sep, 'Applications', "output", "match", "")
+game_info_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "info", "")
+game_timeline_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "timeline", "")
+account_folder_path = os.path.join("", os.sep, 'Applications', "output", "account", "")
 
 
 def get_lol_challenger_summoners_id_json():

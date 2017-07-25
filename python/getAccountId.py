@@ -1,5 +1,6 @@
-import utility
 from datetime import datetime
+
+import utility
 
 with open(utility.summoners_file_path) as fSummoners:
     summonerIds = fSummoners.readlines()

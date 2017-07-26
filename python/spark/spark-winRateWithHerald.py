@@ -1,3 +1,7 @@
+import sys
+sys.path.append("../collectInformation")
+import utility
+
 import findspark
 findspark.init()
 
@@ -14,7 +18,8 @@ sc = spark.sparkContext
 # path = "../output/game-test/*.json"
 
 # the path is for mac
-path = "/Applications/match/*.json"
+# path = "/Applications/match/*.json"
+path = utility.game_info_directory_path + "*.json"
 matchDf = spark.read.json(path)
 
 # tmp = sc.parallelize(matchDf)

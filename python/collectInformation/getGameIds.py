@@ -1,8 +1,6 @@
-import utility
-import json
-import os
-import sys
 from datetime import datetime
+
+import utility
 
 # account_ids = open("../output/list/accounts.csv").readlines()
 

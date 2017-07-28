@@ -13,6 +13,10 @@ match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=2
 game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
+champion_url = server_url + "/static-data/v3/champions?locale=ja_JP&dataById=false&api_key=[APIKEY]"
+item_url = server_url + "/static-data/v3/items?locale=ja_JP&api_key=[APIKEY]"
+
+
 # for Windows setting
 """ 
 # refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
@@ -41,7 +45,10 @@ accounts_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 
 game_ids_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'game_ids.csv')
 timelines_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'timelines.csv')
 
-# I' like to set a path, such as C:/output/game/
+champions_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "champions.csv")
+items_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "items.csv")
+
+# I'd like to set a path, such as C:/output/game/
 match_version_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "")
 match_directory_path = os.path.join("", os.sep, 'Applications', "output", "match", "")
 game_info_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "info", "")
@@ -98,6 +105,18 @@ def get_lol_game_timeline_json(urlTemplate, gameId):
     return get_json(url)
 
 
+def get_lol_game_champion_info_json():
+    url = champion_url.replace("[APIKEY]", a.apiKey)
+
+    return get_json(url)
+
+
+def get_lol_item_info_json():
+    url = item_url.replace("[APIKEY]", a.apiKey)
+
+    return get_json(url)
+
+
 def get_json(url):
     cnt = 0
     return_json = ""
@@ -132,7 +151,9 @@ def get_json(url):
         print("----------------------------------------------------")
 
         if r.status_code == 200:
-            print("x rate limit count = " + headers["X-Rate-Limit-Count"])
+            if "X-Rate-Limit-Count" in headers:
+                print("x rate limit count = " + headers["X-Rate-Limit-Count"])
+
             return_json = r.json()
             break
 

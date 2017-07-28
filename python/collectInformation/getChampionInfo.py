@@ -1,20 +1,12 @@
-"https://jp1.api.riotgames.com/lol/static-data/v3/champions?locale=ja_JP&dataById=true&api_key=[APIKEY]"
+import utility
 
-{
-    data: {
-        1: {
-            id: 1,
-            key: "Annie",
-            name: "アニー",
-            title: "闇の申し子"
-        },
-        1: {
-            id: 1,
-            key: "Annie",
-            name: "アニー",
-            title: "闇の申し子"
-        }
-    },
-    type: "champion",
-    version: "7.15.1"
-}
+champions_json = utility.get_lol_game_champion_info_json()
+
+if champions_json:
+    with open(utility.champions_file_path, 'w', encoding="UTF-8") as f_champions:
+        champion_data = champions_json["data"]
+
+        for champion_info in champion_data.values():
+            f_champions.write(str(champion_info["id"]) + "," +
+                                    champion_info["key"] + "," +
+                                    champion_info["name"] + "\n")

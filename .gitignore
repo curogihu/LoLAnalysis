@@ -10,3 +10,5 @@ python/__pycache__/utility.cpython-35.pyc
 *.pyc
 
 python/collectInformation/apiKey.py
+
+python/collectInformation/apiKey.py

@@ -24,7 +24,7 @@
       <file leaf-file-name="getGameIds.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameIds.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -36,28 +36,8 @@
       <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="675">
               <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGameTimelineJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameTimelineJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGameInfoJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameInfoJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,6 +48,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spark-sample1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertPartialGameTimelineToEs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/elasticsearch/insertPartialGameTimelineToEs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spark-winRateWithHerald.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -86,19 +96,31 @@
       <file leaf-file-name="getHighRankedSummonersId.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/collectInformation/getHighRankedSummonersId.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="180">
               <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getItemInfo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getItemInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/collectInformation/getItemInfo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertGameTimelineToEs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/elasticsearch/insertGameTimelineToEs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,10 +205,11 @@
         <option value="$PROJECT_DIR$/python/spark/spark-sample2.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/getGameInfoJson.py" />
         <option value="$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py" />
-        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/getChampionInfo.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/utility.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/getItemInfo.py" />
+        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
+        <option value="$PROJECT_DIR$/python/elasticsearch/insertPartialGameTimelineToEs.py" />
       </list>
     </option>
   </component>
@@ -211,9 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,12 +294,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collectInformation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,18 +331,18 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/python/apiKey.py" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/elasticsearch" />
+      <recent name="$PROJECT_DIR$/python/collectInformation" />
+      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\out_of_date" />
+      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\es" />
+      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\temporary" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python" />
       <recent name="$PROJECT_DIR$/python" />
       <recent name="$PROJECT_DIR$/output/list" />
       <recent name="C:\Users\User\Desktop\PythonProject\LoLAnalyse\python" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python/collectInformation" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\out_of_date" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\es" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\temporary" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\analyze" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -871,8 +912,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output/game/2433925123.json" />
-    <entry file="file://$PROJECT_DIR$/python/getMatchListJson.py" />
     <entry file="file://$PROJECT_DIR$/output/list/summonerChallenger.csv" />
     <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py" />
     <entry file="file://$PROJECT_DIR$/output/target/matchResult.csv" />
@@ -941,7 +980,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/es/insert_json_to_es.py">
+    <entry file="file://$PROJECT_DIR$/python/elasticsearch/insert_json_to_es.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
@@ -969,14 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -991,18 +1022,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameInfoJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1011,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,17 +1045,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameIds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1043,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getHighRankedSummonersId.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="180">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="60" />
           <folding />
         </state>
@@ -1059,7 +1073,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="675">
           <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding />
         </state>
@@ -1068,7 +1082,49 @@
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getItemInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/elasticsearch/insertGameTimelineToEs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/elasticsearch/insertPartialGameTimelineToEs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

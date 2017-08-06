@@ -22,7 +22,7 @@ for file_path in files_path:
                 tmp_events = tmp['events']
 
                 for tmp_event in tmp_events:
-                    if(tmp_event['type'] == 'ITEM_PURCHASED'):
+                    if tmp_event['type'] == 'ITEM_PURCHASED':
                         tmp_event['gameId'] = game_id
 
                         es.index(index='lol_item_builds', doc_type='item_build', id=i, body=tmp_event)

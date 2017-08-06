@@ -1,14 +1,6 @@
-/python/apiKey.py
-/output/*
-/.idea/workspace.xml
-
-.idea/workspace.xml
 .idea/workspace.xml
 python/__pycache__/utility.cpython-35.pyc
-.idea/workspace.xml
-
+python/collectInformation/apiKey.py
 *.pyc
+django/challenger_item_build/challenger_item_build/settings.py
 
-python/collectInformation/apiKey.py
-
-python/collectInformation/apiKey.py

@@ -45,8 +45,8 @@ accounts_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 
 game_ids_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'game_ids.csv')
 timelines_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'timelines.csv')
 
-champions_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "champions.csv")
-items_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "items.csv")
+champions_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "champions.json")
+items_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "items.json")
 
 # I'd like to set a path, such as C:/output/game/
 match_version_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "")

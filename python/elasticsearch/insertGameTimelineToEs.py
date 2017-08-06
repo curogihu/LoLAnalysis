@@ -4,37 +4,30 @@ import glob
 from elasticsearch import Elasticsearch
 
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
 
-# f = open('test.json', 'r')
-# json_dict = json.load(f)
-
-"""
-r = requests.get('http://localhost:9200')
 i = 1
+json_docs = []
 
-while r.status_code == 200:
-    r = requests.get('http://swapi.co/api/people/'+ str(i))
-    es.index(index='sw', doc_type='people', id=i, body=json.loads(r.content))
-    i = i + 1
+for file_path in files_path:
+    game_id, ext = os.path.splitext(os.path.basename(file_path))
 
-print(i)
-"""
+    with open(file_path, 'r') as f:
+        json_data = json.load(f)
+        f_1 = json_data['frames']
 
-# files = glob.glob('C:\Python25\*.*') # ワイルドカードが使用可能
-# i = 1
+        # print(f_1)
+        for tmp in f_1:
+            if tmp['events']:
+                tmp_events = tmp['events']
 
-#for file in files:
-#    print file
+                for tmp_event in tmp_events:
+                    if(tmp_event['type'] == 'ITEM_PURCHASED'):
+                        tmp_event['gameId'] = game_id
 
-files = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
-i = 1
+                        es.index(index='lol_item_builds', doc_type='item_build', id=i, body=tmp_event)
 
-for file in files:
-    f = open(file, 'r')
-    json_dict = json.load(f)
-
-    es.index(index='lol_timeline', doc_type='timeline', id=i, body=json_dict)
-    print("success: " + str(i))
-    i += 1
+                        print(i)
+                        i += 1
 
 print("ended")

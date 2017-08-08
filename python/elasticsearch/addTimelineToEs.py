@@ -16,6 +16,7 @@ info_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info",
 timeline_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
 es = Elasticsearch(['http://127.0.0.1:9200/'])
 
+
 def extract_match_info_from_json(p_info_files_path):
     dict_account_id = utility.get_dict_account_id()
 
@@ -28,6 +29,7 @@ def extract_match_info_from_json(p_info_files_path):
             team_json = info_json["teams"]
             team_dict = {}
 
+            # set winFlag 0 = loss, 1 = win
             for team in team_json:
                 if team["win"] == "Win":
                     team_dict[team["teamId"]] = 1
@@ -35,6 +37,7 @@ def extract_match_info_from_json(p_info_files_path):
                 else: #  in case of "Fail"
                     team_dict[team["teamId"]] = 0
 
+            # participantId is needed to link timeline information
             for participant_identity in info_json["participantIdentities"]:
                 current_account_id = participant_identity["player"]["currentAccountId"]
 
@@ -45,10 +48,13 @@ def extract_match_info_from_json(p_info_files_path):
                     # dict_timeline[game_id][current_account_id]["accountId"] = current_account_id
                     dict_timeline[game_id + "_" + str(participant_identity["participantId"])] = participant_dict
 
+            # set role and lane because some champions can do various roles
+            # and buying items depend on the role each champion.
             for participant in info_json["participants"]:
                 dict_key = game_id + "_" + str(participant["participantId"])
 
                 if dict_key in dict_timeline:
+                    dict_timeline[dict_key]["gameId"] = info_json["gameId"]
                     dict_timeline[dict_key]["win"] = team_dict[participant["teamId"]]
                     dict_timeline[dict_key]["teamId"] = participant["teamId"]
                     dict_timeline[dict_key]["championId"] = participant["championId"]
@@ -57,6 +63,8 @@ def extract_match_info_from_json(p_info_files_path):
 
     return dict_timeline
 
+
+# start
 dict_timeline = {}
 dict_timeline = extract_match_info_from_json(info_files_path)
 
@@ -65,6 +73,7 @@ print("finished extracting match information from json", datetime.now().strftime
 es_index = 1
 actions = []
 
+# extract buying items information with using gameId and participantId
 for timeline_file_path in timeline_files_path:
     game_id, ext = os.path.splitext(os.path.basename(timeline_file_path))
 
@@ -82,8 +91,8 @@ for timeline_file_path in timeline_files_path:
                         dict_key = str(game_id) + "_" + str(event["participantId"])
 
                         output_dict = {}
-                        output_dict["gameId"] = game_id
-                        output_dict["participantId"] = str(event["participantId"])
+                        output_dict["gameId"] = dict_timeline[dict_key]["gameId"]
+                        output_dict["participantId"] = event["participantId"]
                         output_dict["championId"] = dict_timeline[dict_key]["championId"]
                         output_dict["role"] = dict_timeline[dict_key]["role"]
                         output_dict["lane"] = dict_timeline[dict_key]["lane"]
@@ -100,41 +109,6 @@ for timeline_file_path in timeline_files_path:
 
 if len(actions) > 0:
     helpers.bulk(es, actions)
-
-print(datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
-
-
-"""
-for timeline_file_path in timeline_files_path:
-    game_id, ext = os.path.splitext(os.path.basename(timeline_file_path))
-
-    with open(timeline_file_path, 'r') as f:
-        timeline_json = json.load(f)
-
-        for frame in timeline_json['frames']:
-
-            if frame['events']:
-                timeline_list = {}
-                for event in frame['events']:
-                    if event['type'] == 'ITEM_PURCHASED' and \
-                            str(game_id) + "_" + str(event["participantId"]) in dict_timeline:
-
-                        dict_key = str(game_id) + "_" + str(event["participantId"])
-
-                        output_dict = {}
-                        output_dict["championId"] = dict_timeline[dict_key]["championId"]
-                        output_dict["role"] = dict_timeline[dict_key]["role"]
-                        output_dict["lane"] = dict_timeline[dict_key]["lane"]
-                        output_dict["win"] = dict_timeline[dict_key]["win"]
-                        output_dict["itemId"] = event['itemId']
-                        output_dict["timestamp"] = event['timestamp']
-
-                        print(es_index, d   atetime.now().strftime("%Y/%m/%d %H:%M:%S"))
-
-                        es.index(index='timelines', doc_type='timeline', id=es_index, body=output_dict)
-                        es_index += 1
-"""
-
 
 print(datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 

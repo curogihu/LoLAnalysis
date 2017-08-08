@@ -82,14 +82,16 @@ for timeline_file_path in timeline_files_path:
 
         for frame in timeline_json['frames']:
 
+            # frame['events'] is blank at some times.
             if frame['events']:
                 timeline_list = {}
                 for event in frame['events']:
                     if event['type'] == 'ITEM_PURCHASED' and \
-                                                    str(game_id) + "_" + str(event["participantId"]) in dict_timeline:
+                            str(game_id) + "_" + str(event["participantId"]) in dict_timeline:
 
                         dict_key = str(game_id) + "_" + str(event["participantId"])
 
+                        # set output data to array
                         output_dict = {}
                         output_dict["gameId"] = dict_timeline[dict_key]["gameId"]
                         output_dict["participantId"] = event["participantId"]
@@ -107,6 +109,7 @@ for timeline_file_path in timeline_files_path:
                             print(datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
                             actions = []
 
+# bulk the reminder
 if len(actions) > 0:
     helpers.bulk(es, actions)
 

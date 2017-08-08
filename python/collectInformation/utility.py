@@ -56,6 +56,19 @@ game_timeline_directory_path = os.path.join("", os.sep, 'Applications', "output"
 account_folder_path = os.path.join("", os.sep, 'Applications', "output", "account", "")
 
 
+# created to search quickly than list object
+def get_dict_account_id():
+
+    res_dict = {}
+
+    with open(accounts_file_path) as f:
+        for line in f:
+            account_id = int(line.replace("\n", ""))
+            res_dict[account_id] = account_id
+
+    return res_dict
+
+
 def get_lol_challenger_summoners_id_json():
     return get_lol_json(challengers_url)
 

@@ -12,8 +12,14 @@ import utility
 print("start", datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
 # es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'timeout': 60}])
+
+"""
 info_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
 timeline_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
+"""
+
+info_files_path = glob.glob(os.path.join("", os.sep, 'Applications', "output", "game", "info", "*.json"))
+timeline_files_path = glob.glob(os.path.join("", os.sep, 'Applications', "output", "game", "timeline", "*.json"))
 es = Elasticsearch(['http://127.0.0.1:9200/'])
 
 

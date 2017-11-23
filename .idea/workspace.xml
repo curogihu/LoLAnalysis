@@ -34,8 +34,8 @@
       <file leaf-file-name="getLoLInfo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/collectInformation/getLoLInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="203" column="24" lean-forward="false" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="203" column="28" lean-forward="false" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="28" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="spark-winRateWithHerald.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
+        <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-winRateWithHerald.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
@@ -114,10 +114,10 @@
         </entry>
       </file>
       <file leaf-file-name="spark-sample1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
+        <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-sample1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -248,8 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,13 +288,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ver2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collectInformation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,19 +350,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/django/challenger_item_build" />
-      <recent name="$PROJECT_DIR$/python/elasticsearch" />
-      <recent name="$PROJECT_DIR$/python/collectInformation" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\out_of_date" />
-      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\es" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python/elasticsearch" />
       <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python" />
       <recent name="$PROJECT_DIR$/python" />
       <recent name="$PROJECT_DIR$/output/list" />
       <recent name="C:\Users\User\Desktop\PythonProject\LoLAnalyse\python" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/spark/ver1" />
+      <recent name="$PROJECT_DIR$/django/challenger_item_build" />
+      <recent name="$PROJECT_DIR$/python/elasticsearch" />
+      <recent name="$PROJECT_DIR$/python/collectInformation" />
+      <recent name="C:\Users\hikozuma\Desktop\development\LoLAnalysis\python\out_of_date" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,7 +390,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalyse" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/spark/ver1/spark-winRateWithHerald.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -970,7 +1010,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/spark-sample2.py">
+    <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-sample2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="34" />
@@ -1056,7 +1096,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/spark-winRateWithHerald.py">
+    <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-winRateWithHerald.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
@@ -1101,14 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/spark-sample1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/elasticsearch/addTimelineToEs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1125,10 +1157,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-sample1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getLoLInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="203" column="24" lean-forward="false" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="203" column="28" lean-forward="false" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="28" />
           <folding>
             <element signature="e#1#15#0" expanded="true" />
           </folding>

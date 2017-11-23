@@ -196,9 +196,9 @@ def get_game_timeline_json():
                     print("UnicodeEncodeError [getMatchjson] game_id = " + game_id)
                     # give up getting json
 
-
-get_high_ranked_summoner_ids()
-get_account_ids()
-get_game_ids()
-get_game_info_json()
-get_game_timeline_json()
+if __name__ == '__main__':
+    get_high_ranked_summoner_ids()
+    get_account_ids()
+    get_game_ids()
+    get_game_info_json()
+    get_game_timeline_json()

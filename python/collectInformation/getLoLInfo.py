@@ -200,5 +200,9 @@ if __name__ == '__main__':
     get_high_ranked_summoner_ids()
     get_account_ids()
     get_game_ids()
+
+    # for game_id in gameids:
+    #   get_game_info_json(game_id)
+    #   get_game_timeline_json(game_id)
     get_game_info_json()
     get_game_timeline_json()

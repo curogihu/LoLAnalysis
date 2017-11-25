@@ -130,7 +130,7 @@ def get_game_info_json():
                 # give up getting json
 
 
-def get_game_timeline_json():
+def get_game_timeline_json(game_id):
     with open(utility.accounts_file_path) as f_account_ids:
         account_ids = f_account_ids.readlines()
 
@@ -204,5 +204,10 @@ if __name__ == '__main__':
     # for game_id in gameids:
     #   get_game_info_json(game_id)
     #   get_game_timeline_json(game_id)
-    get_game_info_json()
-    get_game_timeline_json()
+
+    with open(utility.game_ids_file_path) as f_game_ids:
+        game_ids = f_game_ids.readlines()
+
+        for game_id in game_ids:
+            get_game_info_json(game_id)
+            get_game_timeline_json(game_id)

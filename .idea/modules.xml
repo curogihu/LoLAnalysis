@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LoLAnalyse.iml" filepath="$PROJECT_DIR$/LoLAnalyse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoLAnalysis.iml" filepath="$PROJECT_DIR$/LoLAnalysis.iml" />
     </modules>
   </component>
 </project>

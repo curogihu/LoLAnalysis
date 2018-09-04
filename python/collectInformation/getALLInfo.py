@@ -1,16 +1,9 @@
+import json
+from datetime import datetime
 
 import utility
-from datetime import datetime
-import json
-
 
 def get_high_ranked_summoner_ids():
-    # Output Master and Challenger summoner ids to a files
-    # 1. summonerChallenger.csv
-    # 2. summonerMaster.csv
-    #
-    # Then, They are combined to a file, summoners.csv with no duplicated ids
-
     challenger_summoner_json = utility.get_lol_challenger_summoners_id_json()
     master_summoner_json = utility.get_lol_master_summoners_id_json()
 
@@ -23,7 +16,7 @@ def get_high_ranked_summoner_ids():
                     f_summoners.write(summoner["playerOrTeamId"] + "\n")
 
     # output master ids
-    with open(utility.summoners_file_path, 'w', encoding="UTF-8") as f_summoners:
+    with open(utility.summoners_file_path, 'a', encoding="UTF-8") as f_summoners:
         if master_summoner_json != "":
             with open(utility.master_summoners_file_path, 'w', encoding="UTF-8") as f_masters:
                 for summoner in master_summoner_json["entries"]:
@@ -54,7 +47,6 @@ def get_account_ids():
 
             else:
                 fAccounts.write(str(accountJson["accountId"]) + "\n")
-                print(accountJson["accountId"])
 
             cnt += 1
 
@@ -98,7 +90,7 @@ def get_game_ids():
     utility.delete_duplicated_records(utility.game_ids_file_path, False)
 
 
-def get_game_info_json():
+def get_game_info():
     with open(utility.game_ids_file_path) as f_game_ids:
         game_ids = f_game_ids.readlines()
 
@@ -127,87 +119,41 @@ def get_game_info_json():
                 json.dump(game_info_json, f_json, separators=(',', ': '))
             except UnicodeEncodeError as e:
                 print("UnicodeEncodeError [getMatchjson] game_id = " + game_id)
-                # give up getting json
 
 
-def get_game_timeline_json(game_id):
-    with open(utility.accounts_file_path) as f_account_ids:
-        account_ids = f_account_ids.readlines()
+def get_game_timelines():
+    with open(utility.game_ids_file_path) as f_game_ids:
+        game_ids = f_game_ids.readlines()
 
     cnt = 0
-    account_ids_len = len(account_ids)
+    game_ids_len = len(game_ids)
 
-    with open(utility.game_ids_file_path, 'w', encoding="UTF-8") as f_game_ids:
+    for game_id in game_ids:
+        game_id = game_id.replace("\n", "")
 
-        for account_id in account_ids:
-            account_id = account_id.replace("\n", "")
+        print("expected game_id json = " + game_id)
+        game_info_json = utility.get_lol_game_info_json(utility.game_info_url, str(game_id))
 
-            print("expected account json = " + account_id)
+        if game_info_json == "" or game_info_json == "429":
+            print("skipped summonerId json = " + game_id)
+            continue
 
-            match_json = utility.get_lol_match_json(utility.match_url, account_id)
+        cnt += 1
 
-            if match_json == "" or match_json == "429":
-                print("get json value is [" + match_json + "]")
-                print("Unexpectational error, so it ended.")
-                # sys.exit()
+        if cnt % 10 == 0:
+            print(str(cnt) + " / " + str(game_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
 
-                continue
+        print(utility.game_info_directory_path + game_id + ".json")
 
-            cnt += 1
-
-            if cnt % 10 == 0:
-                print(str(cnt) + " / " + str(account_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
-
-            for match in match_json["matches"]:
-                # print(str(match["game_id"]))
-                f_game_ids.write(str(match["gameId"]) + "\n")
-
-    # delete duplicate ids
-    utility.delete_duplicated_records(utility.game_ids_file_path, False)
+        with open(utility.game_info_directory_path + game_id + ".json", "w") as f_json:
+            try:
+                json.dump(game_info_json, f_json, separators=(',', ': '))
+            except UnicodeEncodeError as e:
+                print("UnicodeEncodeError [getMatchjson] game_id = " + game_id)
 
 
-    with open(utility.game_ids_file_path) as f_game_ids:
-        game_ids = f_game_ids.readlines()
-
-        cnt = 0
-        game_ids_len = len(game_ids)
-
-        for game_id in game_ids:
-            game_id = game_id.replace("\n", "")
-
-            print("expected game_id json = " + game_id)
-            timeline_json = utility.get_lol_game_timeline_json(utility.game_timeline_url, str(game_id))
-
-            if timeline_json == "" or timeline_json == "429":
-                print("skipped summonerId json = " + game_id)
-                continue
-
-            cnt += 1
-
-            if cnt % 10 == 0:
-                print(str(cnt) + " / " + str(game_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
-
-            print(utility.game_timeline_directory_path + game_id + ".json")
-
-            with open(utility.game_timeline_directory_path + game_id + ".json", "w") as f_json:
-                try:
-                    json.dump(timeline_json, f_json, separators=(',', ': '))
-                except UnicodeEncodeError as e:
-                    print("UnicodeEncodeError [getMatchjson] game_id = " + game_id)
-                    # give up getting json
-
-if __name__ == '__main__':
-    get_high_ranked_summoner_ids()
-    get_account_ids()
-    get_game_ids()
-
-    # for game_id in gameids:
-    #   get_game_info_json(game_id)
-    #   get_game_timeline_json(game_id)
-
-    with open(utility.game_ids_file_path) as f_game_ids:
-        game_ids = f_game_ids.readlines()
-
-        for game_id in game_ids:
-            get_game_info_json(game_id)
-            get_game_timeline_json(game_id)
+get_high_ranked_summoner_ids()
+get_account_ids()
+get_game_ids()
+get_game_info()
+get_game_timelines()

@@ -28,6 +28,8 @@ with open('output.csv', 'w') as csv_f:
     for json_file_path in json_files_path:
         game_id, ext = os.path.splitext(os.path.basename(json_file_path))
 
+        print(game_id)
+
         with open(json_file_path, 'r') as f:
             json_data = json.load(f)
             participants = json_data['participants']

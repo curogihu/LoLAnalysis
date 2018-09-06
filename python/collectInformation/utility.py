@@ -9,7 +9,7 @@ server_url = "https://jp1.api.riotgames.com/lol"
 challengers_url = server_url + "/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 masters_url = server_url + "/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 account_url = server_url + "/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?endIndex=50&beginIndex=0&api_key=[APIKEY]"
+match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&season=11&api_key=[APIKEY]"
 game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 

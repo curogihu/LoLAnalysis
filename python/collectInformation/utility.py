@@ -138,7 +138,7 @@ def get_json(url):
     print(url)
 
     while True:
-        sleep(1.7)
+        sleep(1.3)
 
         try:
             r = requests.get(url)

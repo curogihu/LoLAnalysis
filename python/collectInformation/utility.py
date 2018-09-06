@@ -138,7 +138,7 @@ def get_json(url):
     print(url)
 
     while True:
-        sleep(1.3)
+        sleep(1.5)
 
         try:
             r = requests.get(url)
@@ -194,6 +194,8 @@ def get_json(url):
 
             sleep(retryAfter + 1)
             """
+
+            sleep(10)
 
             # emergency stop
             return_json = "429"

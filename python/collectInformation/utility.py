@@ -13,8 +13,13 @@ match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&
 game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
-champion_url = server_url + "/static-data/v3/champions?locale=ja_JP&dataById=false&api_key=[APIKEY]"
-item_url = server_url + "/static-data/v3/items?locale=ja_JP&api_key=[APIKEY]"
+# バージョンはとりあえず決め打ち。　呼び出し元で最新のバージョン取得し、URLを変更する方式に切り替える
+champion_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/champion.json"
+item_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/item.json"
+
+# https://developer.riotgames.com/static-data.html
+# http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json
+# http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/item.json
 
 
 # for Windows setting

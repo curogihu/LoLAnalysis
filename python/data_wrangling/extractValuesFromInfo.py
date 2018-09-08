@@ -1,23 +1,16 @@
 import json
 import os
 import glob
-from collections import OrderedDict
-
-import csv
 
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
-output_csv_file_path = glob.glob(os.path.join("C:", os.sep, "output", "edit", "info", "less_then_20mins.csv"))
-
-i = 1
-json_docs = []
+output_csv_file_path = os.path.join("C:", os.sep, "output", "edit", "info", "less_then_20mins.csv")
 
 # しばらく決め打ち
 SMITE_SPELL_ID = 11
 SOLO_DUO_Q = 420
 TWENTY_MINUTE_SECONDS = 1200
 
-with open('C:\output\edit\info\output.csv', 'w') as csv_f:
-    # writer = csv.writer(csv_f, lineterminator='\n')
+with open(output_csv_file_path, 'w') as csv_f:
 
     tmp = ""
     for i in range(5):
@@ -27,28 +20,26 @@ with open('C:\output\edit\info\output.csv', 'w') as csv_f:
     csv_f.write(tmp[1:])
     csv_f.write("\n")
 
+    # 1試合づつ読み込み
     for json_file_path in json_files_path:
         game_id, ext = os.path.splitext(os.path.basename(json_file_path))
-
-        # print(game_id)
 
         with open(json_file_path, 'r') as f:
             json_data = json.load(f)
 
-            # ランク戦のみ取っているはずなのに、チュートリアルのデータも入ってる
+            # ランク戦のみ取り込んでいるはずが、チュートリアルのデータも入ってる
             # 不要なので、読み飛ばす
             if json_data['queueId'] != SOLO_DUO_Q:
                 # print("{0} is skipped".format(game_id))
                 continue
 
+            # 試合時間20分以下のデータは扱わない
             if json_data['gameDuration'] <= TWENTY_MINUTE_SECONDS:
                 continue
 
             print(game_id, json_data['gameDuration'])
 
             participants = json_data['participants']
-
-            # print(participants)
 
             participants_of_match = {}
             cnt = 0
@@ -72,32 +63,19 @@ with open('C:\output\edit\info\output.csv', 'w') as csv_f:
 
                 participants_of_match[participant["participantId"]] = tmp_participant
 
-            # print(participants_of_match)
-
-            # print(participants_of_match)
-
-            # print(str(participants_of_match[1]["championId"] + "," + tmp_participant[1]['role'] + "," + tmp_participant['lane'] + "," + tmp_participant['smite'])
-
-            """
-            print('{championId},{role},{lane},{smite}'.format(championId=participants_of_match[1]["championId"],
-                                                              role=participants_of_match[1]["role"],
-                                                              lane=participants_of_match[1]["lane"],
-                                                              smite=participants_of_match[1]["smite"]))
-            """
             tmp = ""
-
             for i in range(0, 2):
                 # print(i)
 
-                # 1-5, 6-10と1チーム5人ずつ出力
+                # 1-5, 6-10と1チーム5人ずつ設定し、出力する
                 for x in range(i * 5 + 1, i * 5 + 6):
                     tmp += ',{championId},{role},{lane},{smite},{support_item}'.format(championId=participants_of_match[x]["championId"],
                                                                           role=participants_of_match[x]["role"],
                                                                           lane=participants_of_match[x]["lane"],
                                                                           smite=participants_of_match[x]["smite"],
                                                                             support_item="")
-
-                print(tmp)
+                # 異常ケースを含むチームがあるかどうかのざっくり目視確認
+                # print(tmp)
 
                 csv_f.write(tmp[1:])
                 csv_f.write("\n")

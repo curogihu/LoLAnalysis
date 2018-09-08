@@ -6,7 +6,7 @@ from collections import OrderedDict
 import csv
 
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
-output_csv_file_path = glob.glob(os.path.join("C:", os.sep, "output", "edit", "info", "edit.csv"))
+output_csv_file_path = glob.glob(os.path.join("C:", os.sep, "output", "edit", "info", "less_then_20mins.csv"))
 
 i = 1
 json_docs = []
@@ -14,6 +14,7 @@ json_docs = []
 # しばらく決め打ち
 SMITE_SPELL_ID = 11
 SOLO_DUO_Q = 420
+TWENTY_MINUTE_SECONDS = 1200
 
 with open('C:\output\edit\info\output.csv', 'w') as csv_f:
     # writer = csv.writer(csv_f, lineterminator='\n')
@@ -29,7 +30,7 @@ with open('C:\output\edit\info\output.csv', 'w') as csv_f:
     for json_file_path in json_files_path:
         game_id, ext = os.path.splitext(os.path.basename(json_file_path))
 
-        print(game_id)
+        # print(game_id)
 
         with open(json_file_path, 'r') as f:
             json_data = json.load(f)
@@ -37,8 +38,13 @@ with open('C:\output\edit\info\output.csv', 'w') as csv_f:
             # ランク戦のみ取っているはずなのに、チュートリアルのデータも入ってる
             # 不要なので、読み飛ばす
             if json_data['queueId'] != SOLO_DUO_Q:
-                print("{0} is skipped".format(game_id))
+                # print("{0} is skipped".format(game_id))
                 continue
+
+            if json_data['gameDuration'] <= TWENTY_MINUTE_SECONDS:
+                continue
+
+            print(game_id, json_data['gameDuration'])
 
             participants = json_data['participants']
 
@@ -91,7 +97,7 @@ with open('C:\output\edit\info\output.csv', 'w') as csv_f:
                                                                           smite=participants_of_match[x]["smite"],
                                                                             support_item="")
 
-                # print(tmp)
+                print(tmp)
 
                 csv_f.write(tmp[1:])
                 csv_f.write("\n")

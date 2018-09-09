@@ -3,7 +3,8 @@ import os
 import glob
 
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
-output_csv_file_path = os.path.join("C:", os.sep, "output", "edit", "info", "less_then_20mins.csv")
+# output_csv_file_path = os.path.join("C:", os.sep, "output", "edit", "info", "20mins_or_less.csv")
+output_csv_file_path = os.path.join("C:", os.sep, "output", "edit", "info", "more_then_20mins.csv")
 
 # しばらく決め打ち
 SMITE_SPELL_ID = 11
@@ -14,7 +15,7 @@ with open(output_csv_file_path, 'w') as csv_f:
 
     tmp = ""
     for i in range(5):
-        tmp += ",championId{0},role{0},lane{0},haveSmite{0},haveSupportItem{0}".format(i)
+        tmp += ",championId{0},role{0},lane{0},haveSmite{0}".format(i)
 
     # 項目名の出力
     csv_f.write(tmp[1:])
@@ -35,6 +36,9 @@ with open(output_csv_file_path, 'w') as csv_f:
 
             # 試合時間20分以下のデータは扱わない
             if json_data['gameDuration'] <= TWENTY_MINUTE_SECONDS:
+
+            # 試合時間20分超のデータは扱わない
+            # if json_data['gameDuration'] > TWENTY_MINUTE_SECONDS:
                 continue
 
             print(game_id, json_data['gameDuration'])
@@ -72,8 +76,7 @@ with open(output_csv_file_path, 'w') as csv_f:
                     tmp += ',{championId},{role},{lane},{smite},{support_item}'.format(championId=participants_of_match[x]["championId"],
                                                                           role=participants_of_match[x]["role"],
                                                                           lane=participants_of_match[x]["lane"],
-                                                                          smite=participants_of_match[x]["smite"],
-                                                                            support_item="")
+                                                                          smite=participants_of_match[x]["smite"])
                 # 異常ケースを含むチームがあるかどうかのざっくり目視確認
                 # print(tmp)
 

@@ -3,13 +3,14 @@ import os
 
 input_info_file_path = os.path.join("C:", os.sep, "output", "edit", "info", "info_per_line.csv")
 input_timeline_file_path = os.path.join("C:", os.sep, "output", "edit", "timeline", "HadSupportItem.csv")
-output_merged_file_path =  os.path.join("C:", os.sep, "output", "edit", "preprocessing", "merged_info_and_timeline.csv")
+output_merged_file_path = os.path.join("C:", os.sep, "output", "edit", "preprocessing", "merged_info_and_timeline.csv")
 output_five_players_per_line_file_path =  os.path.join("C:", os.sep, "output", "edit", "preprocessing", "merged_match_info.csv")
 
 df = pd.read_csv(input_info_file_path)
 df2 = pd.read_csv(input_timeline_file_path)
 
 merged_df = pd.merge(df, df2, on=['gameId', 'participantId'])
+merged_df.to_csv(output_merged_file_path)
 
 cnt = 0
 tmp = ""

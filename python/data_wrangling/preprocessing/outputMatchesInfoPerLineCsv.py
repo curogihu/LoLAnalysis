@@ -101,10 +101,12 @@ with open(output_csv_file_path, 'w') as csv_f:
                 tmp_participant['championId'] = participant["championId"]
 
                 # array(['NONE', 'SOLO', 'DUO_CARRY', 'DUO_SUPPORT', 'DUO'], dtype=object)
-                tmp_participant['role'] = convert_role_to_num(participant["timeline"]["role"])
+                # tmp_participant['role'] = convert_role_to_num(participant["timeline"]["role"])
+                tmp_participant['role'] = participant["timeline"]["role"]
 
                 # array(['JUNGLE', 'TOP', 'MIDDLE', 'BOTTOM'], dtype=object)
-                tmp_participant['lane'] = convert_lane_to_num(participant["timeline"]["lane"])
+                # tmp_participant['lane'] = convert_lane_to_num(participant["timeline"]["lane"])
+                tmp_participant['lane'] = participant["timeline"]["lane"]
 
                 if participant["spell1Id"] == SMITE_SPELL_ID or participant["spell2Id"] == SMITE_SPELL_ID:
                     tmp_participant["smite"] = 1

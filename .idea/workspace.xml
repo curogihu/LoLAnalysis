@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/outputChampionCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/outputItemsCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/outputMatchesInfoCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/outputTimelineCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/tmp2.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spark/ver2/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +20,8 @@
       <file leaf-file-name="outputFinalCsv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -106,14 +99,16 @@
         <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/fakeApiKey" />
         <option value="$PROJECT_DIR$/python/data_wrangling/outputTimelineCsv.py" />
-        <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/tst20180910.py" />
+        <option value="$PROJECT_DIR$/python/spark/ver2/test.py" />
+        <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
+        <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="34" />
+    <option name="x" value="68" />
+    <option name="y" value="62" />
     <option name="width" value="1240" />
     <option name="height" value="638" />
   </component>
@@ -132,7 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,39 +248,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_wrangling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprocessing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="not_used" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="collectInformation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -314,43 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tst20180910">
-    <configuration default="false" name="outputMatchesInfoPerLineCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/data_wrangling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\outputMatchesInfoPerLineCsv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="outputTimelineCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/data_wrangling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\outputTimelineCsv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.outputFinalCsv">
     <configuration default="false" name="outputTimelineCsv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,6 +333,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/spark/ver2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/spark/ver2/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="outputFinalCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/data_wrangling/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -674,19 +643,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
-      <item index="1" class="java.lang.String" itemvalue="Python.outputTimelineCsv" />
-      <item index="2" class="java.lang.String" itemvalue="Python.outputTimelineCsv (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tst20180910" />
-      <item index="4" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.outputTimelineCsv (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tst20180910" />
+      <item index="2" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tst20180910" />
-        <item index="1" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.outputTimelineCsv (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.outputTimelineCsv" />
-        <item index="4" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tst20180910" />
+        <item index="3" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.outputTimelineCsv (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +673,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="34" width="1240" height="638" extended-state="0" />
+    <frame x="68" y="62" width="1240" height="638" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -715,7 +684,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,13 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/elasticsearch/addStaticDataToEs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -938,13 +900,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/data_wrangling/output.csv" />
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameInfoJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getItemInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1005,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,33 +1095,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/spark/ver2/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1536575216508" expanded="true" signature="0:134" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameInfoJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514852587909" expanded="false" signature="0:57" ph="import ..." />
+            <marker date="1514852587909" expanded="true" signature="213:1045" ph="..." />
+            <marker date="1514852587909" expanded="true" signature="448:519" ph="..." />
+            <marker date="1514852587909" expanded="true" signature="811:1045" ph="..." />
+            <marker date="1514852587909" expanded="true" signature="934:1045" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="99" column="101" lean-forward="false" selection-start-line="99" selection-start-column="101" selection-end-line="99" selection-end-column="101" />
+        <state relative-caret-position="147">
+          <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
           <folding>
-            <marker date="1536572971433" expanded="true" signature="0:33" ph="import ..." />
-            <marker date="1536572971433" expanded="true" signature="35:144" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="544:796" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="829:1032" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1075:1174" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1222:3620" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1353:3620" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1499:3620" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1550:1611" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1662:1744" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1845:1979" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="1863:1954" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="2174:3063" ph="..." />
-            <marker date="1536572971433" expanded="true" signature="3099:3620" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="0:33" ph="import ..." />
+            <marker date="1536576112892" expanded="true" signature="35:144" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="544:796" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="829:1032" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1075:1174" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1222:3620" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1353:3620" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1499:3620" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1550:1611" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1662:1744" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1845:1979" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="1863:1954" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="2174:3063" ph="..." />
+            <marker date="1536576112892" expanded="true" signature="3099:3620" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

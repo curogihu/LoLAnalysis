@@ -15,29 +15,34 @@ cnt = 0
 tmp = ""
 
 with open(output_five_players_per_line_file_path, "w") as f_2:
-    tmp = ""
+    tmp_keys = ""
+    tmp_values = ""
 
     for i in range(5):
-        tmp += ",participantId{0},championId{0},role{0},lane{0},haveSmite{0},haveSupportItem{0}".format(i)
+        tmp_keys += ",role_lane{0}".format(i)
+        tmp_values += ",championId{0},haveSmite{0},haveSupportItem{0}".format(i)
 
         # 項目名の出力
-    f_2.write(tmp[1:])
+    f_2.write(tmp_keys[1:] + tmp_values[:])
     f_2.write("\n")
 
-    tmp = ""
+    tmp_keys = ""
+    tmp_values = ""
 
-    for a, b, c, d, e, f in zip(merged_df['participantId'], merged_df['championId'], merged_df['role'], merged_df['lane'], merged_df['haveSmite'], merged_df['haveSupportItem']):
-        tmp += ",{0},{1},{2},{3},{4},{5}".format(a, b, c, d, e, f)
+    for a, b, c, d, e in zip(merged_df['role'], merged_df['lane'], merged_df['championId'], merged_df['haveSmite'], merged_df['haveSupportItem']):
+        tmp_keys += ",{0}_{1}".format(a, b)
+        tmp_values += ",{0},{1},{2}".format(c, d, e)
         cnt += 1
 
         # print(tmp)
 
         if cnt % 5 == 0:
             # print(tmp[1:])
-            f_2.write(tmp[1:])
+            f_2.write(tmp_keys[1:] + tmp_values[:])
             f_2.write("\n")
 
-            tmp = ""
+            tmp_keys = ""
+            tmp_values = ""
 
 print("ended")
 

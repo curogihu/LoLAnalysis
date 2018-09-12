@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spark/ver2/aaaa.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spark/ver2/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/machine_learning/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/test.py" afterPath="$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +41,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/spark/ver2/test.py">
+        <entry file="file://$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,76 +229,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_wrangling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_wrangling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprocessing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_wrangling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machine_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoLAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collectInformation" />
+              <option name="myItemId" value="identifyRoles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,14 +245,15 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\machine_learning" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\not_used" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\machine_learning" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\not_used" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -697,7 +659,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="110" y="43" width="1240" height="638" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -707,19 +668,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27859476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27859476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -973,21 +934,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1008,21 +969,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/machine_learning/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
@@ -1032,7 +986,6 @@
             <marker date="1536583000203" expanded="true" signature="815:960" ph="..." />
             <marker date="1536583000203" expanded="true" signature="1211:1537" ph="..." />
             <marker date="1536583000203" expanded="true" signature="1373:1537" ph="..." />
-            <marker date="1536583000203" expanded="true" signature="1555:2085" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
           </folding>
         </state>
       </provider>
@@ -1041,11 +994,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="99" />
@@ -1058,7 +1010,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="96" />
@@ -1085,8 +1037,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/spark/ver2/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state relative-caret-position="17">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <marker date="1536638774135" expanded="true" signature="311:657" ph="..." />
+            <marker date="1536638774135" expanded="true" signature="381:632" ph="..." />
+            <marker date="1536638774135" expanded="true" signature="443:632" ph="..." />
+            <marker date="1536638774135" expanded="true" signature="494:577" ph="..." />
+            <marker date="1536638774135" expanded="true" signature="920:1156" ph="..." />
+            <marker date="1536638774135" expanded="true" signature="1157:1336" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536638774135" expanded="true" signature="1337:1629" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536638774135" expanded="true" signature="1630:2090" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

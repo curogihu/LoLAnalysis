@@ -141,7 +141,7 @@ def get_game_timelines():
         cnt += 1
 
         if os.path.exists(os.path.join(utility.game_timeline_directory_path, game_id + ".json")):
-            print("Due to existed match file, skipped gameId json = " + game_id)
+            print("Due to existed timeline file, skipped gameId json = " + game_id)
             continue
 
         print("expected game_id json = " + game_id)
@@ -166,8 +166,8 @@ def get_game_timelines():
                 # give up getting json
 
 
-# get_high_ranked_summoner_ids()
-# get_account_ids()
-# get_game_ids()
-# get_game_info()
+get_high_ranked_summoner_ids()
+get_account_ids()
+get_game_ids()
+get_game_info()
 get_game_timelines()

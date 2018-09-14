@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/machine_learning/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/machine_learning/test.py" afterPath="$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/data_wrangling/preprocessing/tmp2.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" afterPath="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +16,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py">
+      <file leaf-file-name="getALLInfo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/collectInformation/getALLInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,10 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/</find>
-      <find>account_url</find>
-      <find>game_ids_file_path</find>
-      <find>match_url</find>
       <find>summoners_file_path</find>
       <find>accounts_file_path</find>
       <find>output_csv_file_path</find>
@@ -74,7 +48,6 @@
       <find>skipped</find>
       <find>= 429</find>
       <find>Retry-After</find>
-      <find>delete_duplicated_records</find>
       <find>champion_url</find>
       <find>get_json</find>
       <find>https://jp1.api.riotgames.com/lol</find>
@@ -91,6 +64,11 @@
       <find>from</find>
       <find>depth</find>
       <find>output_merged_file_path</find>
+      <find>get_game_ids</find>
+      <find>delete_duplicated_records</find>
+      <find>get_game_info</find>
+      <find>game_info_url</find>
+      <find>game_info_directory_path</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,7 +83,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/python/collectInformation/getLoLInfo.py" />
-        <option value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/tmp2.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/output.csv" />
         <option value="$PROJECT_DIR$/python/data_wrangling/tmp.py" />
@@ -117,7 +94,6 @@
         <option value="$PROJECT_DIR$/python/data_wrangling/outputMatchesInfoCsv.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/outputItemsCsv.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/outputMatchesInfoPerLineCsv.py" />
-        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/fakeApiKey" />
         <option value="$PROJECT_DIR$/python/data_wrangling/outputTimelineCsv.py" />
         <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/tst20180910.py" />
@@ -125,6 +101,10 @@
         <option value="$PROJECT_DIR$/python/data_wrangling/preprocessing/outputFinalCsv.py" />
         <option value="$PROJECT_DIR$/python/spark/ver2/aaaa.py" />
         <option value="$PROJECT_DIR$/python/spark/ver2/test.py" />
+        <option value="$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py" />
+        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
+        <option value="$PROJECT_DIR$/python/temporary/test.py" />
+        <option value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
       </list>
     </option>
   </component>
@@ -189,6 +169,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="temporary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spark" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -233,11 +231,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectInformation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,25 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration default="false" name="tst20180910" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/data_wrangling/preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\outputFinalCsv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.getALLInfo">
     <configuration default="false" name="outputMatchesInfoPerLineCsv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,6 +352,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/spark/ver2/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="getALLInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/collectInformation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -628,19 +644,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tst20180910" />
-      <item index="1" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getALLInfo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tst20180910" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getALLInfo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.outputFinalCsv" />
+        <item index="3" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -659,6 +675,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="110" y="43" width="1240" height="638" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -669,12 +686,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27859476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27859476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -877,25 +894,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/getALLInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/data_wrangling/extractValuesFromInfo2.py" />
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getChampionAndItemInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -906,31 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/temporary/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getAccountId.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameIds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -980,20 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <marker date="1536583000203" expanded="true" signature="0:29" ph="import ..." />
-            <marker date="1536583000203" expanded="true" signature="753:1537" ph="..." />
-            <marker date="1536583000203" expanded="true" signature="815:960" ph="..." />
-            <marker date="1536583000203" expanded="true" signature="1211:1537" ph="..." />
-            <marker date="1536583000203" expanded="true" signature="1373:1537" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/spark/ver2/aaaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1001,12 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="99" />
-          <folding>
-            <marker date="1536464451188" expanded="false" signature="0:21" ph="import ..." />
-            <marker date="1536464451188" expanded="true" signature="399:1243" ph="..." />
-            <marker date="1536464451188" expanded="true" signature="512:1243" ph="..." />
-            <marker date="1536464451188" expanded="true" signature="590:1243" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,30 +976,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1536581521034" expanded="false" signature="0:33" ph="import ..." />
-            <marker date="1536581521034" expanded="true" signature="35:144" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="544:796" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="829:1032" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1075:1174" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1222:3772" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1353:3772" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1499:3772" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1550:1611" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1662:1744" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1845:1979" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="1863:1954" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="2174:3215" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="2405:2576" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="2668:2825" ph="..." />
-            <marker date="1536581521034" expanded="true" signature="3251:3772" ph="..." />
+            <marker date="1536762646037" expanded="false" signature="0:134" ph="import ..." />
+            <marker date="1536762646037" expanded="true" signature="458:521" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536762646037" expanded="true" signature="523:757" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536762646037" expanded="true" signature="759:841" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/getGameIds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <marker date="1514852587908" expanded="false" signature="0:45" ph="import ..." />
+            <marker date="1514852587908" expanded="true" signature="332:1074" ph="..." />
+            <marker date="1514852587908" expanded="true" signature="368:1074" ph="..." />
+            <marker date="1514852587908" expanded="true" signature="607:771" ph="..." />
+            <marker date="1514852587908" expanded="true" signature="973:1074" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/spark/ver2/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="646">
           <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
             <marker date="1536638774135" expanded="true" signature="311:657" ph="..." />
@@ -1052,11 +1031,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py">
+    <entry file="file://$PROJECT_DIR$/python/spark/ver2/aaaa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/temporary/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1536896309487" expanded="true" signature="271:201772" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <marker date="1536297467362" expanded="false" signature="0:67" ph="import ..." />
+            <marker date="1536297467362" expanded="true" signature="949:1230" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="2379:3800" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536297467362" expanded="true" signature="3873:4076" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="3933:4055" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="3956:4055" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4122:4163" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4205:4242" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4275:4353" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4408:4536" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4586:4712" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4765:4893" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="4944:5064" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5119:5239" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5280:5359" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5391:5466" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5487:7543" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5553:7519" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="5700:5859" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6022:6120" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6225:6406" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6416:6522" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6557:6604" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6640:7257" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="6892:7153" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536297467362" expanded="true" signature="7318:7360" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="7375:7479" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="7545:9855" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1536297467362" expanded="true" signature="9909:10197" ph="..." />
+            <marker date="1536297467362" expanded="true" signature="9943:10197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/getALLInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

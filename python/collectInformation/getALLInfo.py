@@ -1,7 +1,8 @@
-import json
+import json, os
 from datetime import datetime
 
 import utility
+
 
 def get_high_ranked_summoner_ids():
     challenger_summoner_json = utility.get_lol_challenger_summoners_id_json()
@@ -87,7 +88,7 @@ def get_game_ids():
                 f_game_ids.write(str(match["gameId"]) + "\n")
 
     # delete duplicate ids
-    utility.delete_duplicated_records(utility.game_ids_file_path, False)
+    utility.delete_duplicated_records(utility.game_ids_file_path, True)
 
 
 def get_game_info():
@@ -100,14 +101,21 @@ def get_game_info():
     for game_id in game_ids:
         game_id = game_id.replace("\n", "")
 
+        cnt += 1
+
+        if os.path.exists(os.path.join(utility.game_info_directory_path, game_id + ".json")):
+            print("Due to existed output file, skipped gameId json = " + game_id)
+            continue
+
         print("expected game_id json = " + game_id)
         game_info_json = utility.get_lol_game_info_json(utility.game_info_url, str(game_id))
 
         if game_info_json == "" or game_info_json == "429":
-            print("skipped summonerId json = " + game_id)
+            print("Due to some reasons, skipped gameId json = " + game_id)
+            # cnt += 1
             continue
 
-        cnt += 1
+        # cnt += 1
 
         if cnt % 10 == 0:
             print(str(cnt) + " / " + str(game_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))
@@ -131,6 +139,12 @@ def get_game_timelines():
     for game_id in game_ids:
         game_id = game_id.replace("\n", "")
 
+        cnt += 1
+
+        if os.path.exists(os.path.join(utility.game_timeline_directory_path, game_id + ".json")):
+            print("Due to existed output file, skipped gameId json = " + game_id)
+            continue
+
         print("expected game_id json = " + game_id)
         game_info_json = utility.get_lol_game_info_json(utility.game_info_url, str(game_id))
 
@@ -138,7 +152,7 @@ def get_game_timelines():
             print("skipped summonerId json = " + game_id)
             continue
 
-        cnt += 1
+        # cnt += 1
 
         if cnt % 10 == 0:
             print(str(cnt) + " / " + str(game_ids_len) + " " + datetime.now().strftime("%Y/%m/%d %H:%M:%S"))

@@ -16,55 +16,6 @@ json_docs = []
 SMITE_SPELL_ID = 11
 SOLO_DUO_Q = 420
 TWENTY_MINUTE_SECONDS = 1200
-
-# # array(['NONE', 'SOLO', 'DUO_CARRY', 'DUO_SUPPORT', 'DUO'], dtype=object)
-
-"""
-def convert_role_to_num(role):
-    if role == "NONE":
-        return 1
-
-    elif role == "SOLO":
-        return 2
-
-    elif role == "DUO":
-        return 3
-
-    elif role == "DUO_CARRY":
-        return 4
-
-    elif role == "DUO_SUPPORT":
-        return 5
-
-    else:
-        return 99
-
-
-def convert_lane_to_num(lane):
-    if lane == "TOP":
-        return 1
-
-    elif lane == "JUNGLE":
-        return 2
-
-    elif lane == "MIDDLE":
-        return 3
-
-    elif lane == "BOTTOM":
-        return 4
-
-    else:
-        return 99
-
-
-def adjust_participantId(participantId):
-    if participantId < 6:
-        return participantId
-
-    else:
-        return participantId - 5
-"""
-
 with open(output_csv_file_path, 'w') as csv_f:
 
     # 項目名の出力
@@ -89,9 +40,6 @@ with open(output_csv_file_path, 'w') as csv_f:
 
             # 試合時間20分以下のデータは扱わない
             if json_data['gameDuration'] <= TWENTY_MINUTE_SECONDS:
-
-                # 試合時間20分超のデータは扱わない
-                # if json_data['gameDuration'] > TWENTY_MINUTE_SECONDS:
                 continue
 
             participants = json_data['participants']
@@ -99,7 +47,8 @@ with open(output_csv_file_path, 'w') as csv_f:
 
             for participant in participants:
                 tmp_participant = {}
-                tmp_participant['participantId'] = ev.adjust_participantId(participant["participantId"])
+                # tmp_participant['participantId'] = ev.adjust_participantId(participant["participantId"])
+                tmp_participant['participantId'] = participant["participantId"]
                 tmp_participant['championId'] = participant["championId"]
 
                 # array(['NONE', 'SOLO', 'DUO_CARRY', 'DUO_SUPPORT', 'DUO'], dtype=object)

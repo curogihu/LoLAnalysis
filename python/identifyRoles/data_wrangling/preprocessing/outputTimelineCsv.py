@@ -2,6 +2,9 @@ import json
 import os
 import glob
 
+# /lol/match/v3/timelines/by-match/{matchId}から出力されたJSONから
+# ゲームID, 参加者ID, サポートアイテム持ちフラグを取得し、csvファイルに出力する
+# サポートアイテム持ちフラグ 0:サポートアイテム不所持　1:サポートアイテム所持
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
 output_csv_file_path = os.path.join("C:", os.sep, "output", "edit", "timeline", "HadSupportItem.csv")
 
@@ -28,8 +31,6 @@ with open(output_csv_file_path, 'w') as csv_f:
 
             tmp = [0 for i in range(10)]
 
-            # print(tmp)
-
             for frame in json_data['frames']:
                 if not frame['events']:
                     continue
@@ -54,6 +55,8 @@ with open(output_csv_file_path, 'w') as csv_f:
                 csv_f.write(tmp_str)
                 tmp = ""
         cnt += 1
-        print("{0}/{1}".format(cnt, total_file_num))
+        
+        if cnt % 100 == 0:
+            print("{0}/{1}".format(cnt, total_file_num))
 
 print("ended")

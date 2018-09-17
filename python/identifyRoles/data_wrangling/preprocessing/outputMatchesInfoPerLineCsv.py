@@ -2,6 +2,8 @@ import json
 import os
 import glob
 
+import edit_values as ev
+
 # /lol/match/v3/matches/{matchId}から出力されたJSONから
 # ゲームID, 参加者ID, チャンピオンID, ロール, レーン, スマイト持ちフラグを取得し、csvファイルに出力する
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
@@ -17,7 +19,7 @@ TWENTY_MINUTE_SECONDS = 1200
 
 # # array(['NONE', 'SOLO', 'DUO_CARRY', 'DUO_SUPPORT', 'DUO'], dtype=object)
 
-
+"""
 def convert_role_to_num(role):
     if role == "NONE":
         return 1
@@ -61,11 +63,15 @@ def adjust_participantId(participantId):
 
     else:
         return participantId - 5
+"""
 
 with open(output_csv_file_path, 'w') as csv_f:
 
     # 項目名の出力
     csv_f.write("gameId,participantId,championId,role,lane,haveSmite\n")
+
+    total_file_num = len(json_files_path)
+    cnt = 0
 
     for json_file_path in json_files_path:
         game_id, ext = os.path.splitext(os.path.basename(json_file_path))
@@ -89,23 +95,19 @@ with open(output_csv_file_path, 'w') as csv_f:
                 continue
 
             participants = json_data['participants']
-
-            # print(participants)
-
             participants_of_match = {}
-            cnt = 0
 
             for participant in participants:
                 tmp_participant = {}
-                tmp_participant['participantId'] = adjust_participantId(participant["participantId"])
+                tmp_participant['participantId'] = ev.adjust_participantId(participant["participantId"])
                 tmp_participant['championId'] = participant["championId"]
 
                 # array(['NONE', 'SOLO', 'DUO_CARRY', 'DUO_SUPPORT', 'DUO'], dtype=object)
-                # tmp_participant['role'] = convert_role_to_num(participant["timeline"]["role"])
+                # tmp_participant['role'] = ev.convert_role_to_num(participant["timeline"]["role"])
                 tmp_participant['role'] = participant["timeline"]["role"]
 
                 # array(['JUNGLE', 'TOP', 'MIDDLE', 'BOTTOM'], dtype=object)
-                # tmp_participant['lane'] = convert_lane_to_num(participant["timeline"]["lane"])
+                # tmp_participant['lane'] = ev.convert_lane_to_num(participant["timeline"]["lane"])
                 tmp_participant['lane'] = participant["timeline"]["lane"]
 
                 if participant["spell1Id"] == SMITE_SPELL_ID or participant["spell2Id"] == SMITE_SPELL_ID:
@@ -129,4 +131,8 @@ with open(output_csv_file_path, 'w') as csv_f:
 
                 csv_f.write(tmp)
 
+        cnt += 1
+
+        if cnt % 100 == 0:
+            print("{0}/{1}".format(cnt, total_file_num))
 print("ended")

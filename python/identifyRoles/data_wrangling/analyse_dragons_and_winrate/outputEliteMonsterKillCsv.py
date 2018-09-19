@@ -17,10 +17,9 @@ with open(boss_level_monster_kill_log_path, 'w') as csv_f:
     csv_f.write("game_id,boss_type,team_id,time,amount\n")
 
     total_file_num = len(json_files_path)
-    cnt = 0
 
     # 1試合づつ読み込み
-    for json_file_path in json_files_path:
+    for file_index, json_file_path in enumerate(json_files_path):
         game_id, ext = os.path.splitext(os.path.basename(json_file_path))
 
         with open(json_file_path, 'r') as f:
@@ -54,10 +53,6 @@ with open(boss_level_monster_kill_log_path, 'w') as csv_f:
 
                     boss_kill_logs[boss_type][killer_team].append(event['timestamp'])
 
-            # print(boss_kill_logs)
-
-            # exit()
-
             for boss_type, teams_logs in boss_kill_logs.items():
                 for team_id, team_logs in teams_logs.items():
                     for index, elapsed_time in enumerate(team_logs):
@@ -68,10 +63,8 @@ with open(boss_level_monster_kill_log_path, 'w') as csv_f:
                                                                                                   amount = index + 1)
 
                         csv_f.write(tmp_str)
-                        tmp_str = ""
-                        cnt += 1
 
-        if cnt % 100 == 0:
+        if file_index % 100 == 0:
             print("{0}/{1}".format(cnt, total_file_num))
 
 print("ended")

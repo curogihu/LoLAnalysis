@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/not_used/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/edit_values.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/edit_values.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/not_used/outputMatchesInfoCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputChampionCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputItemsCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputMatchesInfoPerLineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputTimelineCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/tmp2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +18,8 @@
       <file leaf-file-name="outputEliteMonsterKillCsv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="117">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -125,6 +110,7 @@
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.py" />
+        <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
       </list>
     </option>
   </component>
@@ -1189,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="117">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>

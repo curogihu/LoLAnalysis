@@ -11,6 +11,12 @@ boss_level_monster_kill_log_path = os.path.join("C:", os.sep, "output", "edit", 
 def convert_to_seconds(target_time):
     return int(target_time / 1000)
 
+
+def convert_to_right_team_id(target_id):
+    if target_id == 0:
+        return 100
+    return 200
+
 with open(boss_level_monster_kill_log_path, 'w') as csv_f:
 
     # 項目名の出力
@@ -56,15 +62,15 @@ with open(boss_level_monster_kill_log_path, 'w') as csv_f:
             for boss_type, teams_logs in boss_kill_logs.items():
                 for team_id, team_logs in teams_logs.items():
                     for index, elapsed_time in enumerate(team_logs):
-                        tmp_str = '{game_id},{boss_type},{killer_team},{time},{amount}\n' .format(game_id = game_id, \
-                                                                                                  boss_type = boss_type, \
-                                                                                                  killer_team = team_id, \
-                                                                                                  time = convert_to_seconds(elapsed_time), \
-                                                                                                  amount = index + 1)
+                        tmp_str = '{game_id},{boss_type},{killer_team},{time},{amount}\n' .format(game_id=game_id, \
+                                                                                                  boss_type=boss_type, \
+                                                                                                  killer_team=convert_to_right_team_id(team_id), \
+                                                                                                  time=convert_to_seconds(elapsed_time), \
+                                                                                                  amount=index + 1)
 
                         csv_f.write(tmp_str)
 
         if file_index % 100 == 0:
-            print("{0}/{1}".format(cnt, total_file_num))
+            print("{0}/{1}".format(file_index, total_file_num))
 
 print("ended")

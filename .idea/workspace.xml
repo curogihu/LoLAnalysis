@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/not_used/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/edit_values.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/edit_values.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/__init__.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/not_used/outputMatchesInfoCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputChampionCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputItemsCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputMatchesInfoPerLineCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputTimelineCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/tmp2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="outputFinalCsv.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py">
+      <file leaf-file-name="outputEliteMonsterKillCsv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="238">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -31,14 +45,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>output_csv_file_path</find>
-      <find>1</find>
       <find>json_files_path</find>
       <find>skipped summonerId</find>
       <find>skipped</find>
@@ -67,6 +80,8 @@
       <find>game_info_directory_path</find>
       <find>convert_role_to_num</find>
       <find>output_merged_file_path</find>
+      <find>boss_kill_logs</find>
+      <find>total_file_num</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,14 +123,16 @@
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/edit_values.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py" />
+        <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb" />
+        <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="y" value="43" />
-    <option name="width" value="1240" />
-    <option name="height" value="638" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -132,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,7 +296,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="automatic_detected_role" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="identifyRoles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_wrangling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automatic_detected_role" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="preprocessing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="identifyRoles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_wrangling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analyse_dragons_and_winrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,9 +376,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,15 +385,16 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\automatic_detected_role" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\machine_learning" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\not_used" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.outputFinalCsv (1)">
+  <component name="RunManager" selected="Python.tmp">
     <configuration default="false" name="getALLInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,24 +423,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="outputTimelineCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,6 +477,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalysis" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\outputEliteMonsterKillCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -696,18 +770,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.getALLInfo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.outputTimelineCsv" />
-      <item index="2" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
-      <item index="3" class="java.lang.String" itemvalue="Python.outputFinalCsv (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.outputItemsCsv" />
+      <item index="1" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.outputFinalCsv (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.outputItemsCsv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tmp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.outputFinalCsv (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.outputItemsCsv" />
-        <item index="3" class="java.lang.String" itemvalue="Python.outputTimelineCsv" />
-        <item index="4" class="java.lang.String" itemvalue="Python.getALLInfo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getALLInfo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.outputFinalCsv (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.outputMatchesInfoPerLineCsv" />
+        <item index="4" class="java.lang.String" itemvalue="Python.outputItemsCsv" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +799,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="43" width="1240" height="638" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -737,12 +811,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35648996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29862174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27859476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -771,20 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/elasticsearch/addTimelineToEs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/elasticsearch/addTimelineToEs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getChampionAndItemInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -953,14 +1013,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/not_used/outputMatchesInfoCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/not_used/outputMatchesInfoCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/tmp2.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/tmp2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1027,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,37 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding>
-            <marker date="1536913511123" expanded="true" signature="0:61" ph="import ..." />
-            <marker date="1536913511123" expanded="true" signature="99:1287" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="358:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="401:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="504:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="573:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="828:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="867:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="962:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1027:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1312:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1546:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1586:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2199:3342" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2440:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2480:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2735:2915" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3133:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3365:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3540:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3697:3799" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4006:4125" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4439:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4682:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4857:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5017:5122" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5334:5413" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5735:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5869:5988" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,57 +1101,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1536297467362" expanded="false" signature="0:67" ph="import ..." />
-            <marker date="1536297467362" expanded="true" signature="949:1230" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="2379:3800" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1536297467362" expanded="true" signature="3873:4076" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="3933:4055" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="3956:4055" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4122:4163" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4205:4242" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4275:4353" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4408:4536" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4586:4712" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4765:4893" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="4944:5064" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5119:5239" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5280:5359" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5391:5466" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5487:7543" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5553:7519" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="5700:5859" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6022:6120" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6225:6406" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6416:6522" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6557:6604" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6640:7257" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="6892:7153" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1536297467362" expanded="true" signature="7318:7360" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="7375:7479" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="7545:9855" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1536297467362" expanded="true" signature="9909:10197" ph="..." />
-            <marker date="1536297467362" expanded="true" signature="9943:10197" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/edit_values.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/edit_values.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputItemsCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputChampionCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <marker date="1537188488946" expanded="true" signature="30:282" ph="..." />
-            <marker date="1537188488946" expanded="true" signature="315:518" ph="..." />
-            <marker date="1537188488946" expanded="true" signature="561:660" ph="..." />
+            <marker date="1537190770728" expanded="false" signature="0:29" ph="import ..." />
+            <marker date="1537190770728" expanded="true" signature="1082:1189" ph="..." />
+            <marker date="1537190770728" expanded="true" signature="1324:2244" ph="..." />
+            <marker date="1537190770728" expanded="true" signature="1386:1531" ph="..." />
+            <marker date="1537190770728" expanded="true" signature="1918:2244" ph="..." />
+            <marker date="1537190770728" expanded="true" signature="2080:2244" ph="..." />
+            <marker date="1537190770728" expanded="true" signature="2262:2792" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputTimelineCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="59" selection-end-column="56" />
+        <state relative-caret-position="850">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <marker date="1537187903622" expanded="false" signature="0:33" ph="import ..." />
             <marker date="1537187903622" expanded="true" signature="35:182" ph="..." />
@@ -1139,41 +1167,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputItemsCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputMatchesInfoPerLineCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="143">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="11" />
           <folding>
-            <marker date="1536762646027" expanded="false" signature="0:21" ph="import ..." />
-            <marker date="1536762646027" expanded="true" signature="527:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="618:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="829:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="910:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="2379:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="2487:2731" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputChampionCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <marker date="1536762646021" expanded="false" signature="0:21" ph="import ..." />
-            <marker date="1536762646021" expanded="true" signature="399:1243" ph="..." />
-            <marker date="1536762646021" expanded="true" signature="512:1243" ph="..." />
-            <marker date="1536762646021" expanded="true" signature="590:1243" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputMatchesInfoPerLineCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="79" lean-forward="false" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
-          <folding>
-            <marker date="1537190681200" expanded="true" signature="0:59" ph="import ..." />
+            <marker date="1537190681200" expanded="false" signature="0:59" ph="import ..." />
             <marker date="1537190681200" expanded="true" signature="61:170" ph="..." />
             <marker date="1537190681200" expanded="true" signature="506:3140" ph="..." />
             <marker date="1537190681200" expanded="true" signature="692:3140" ph="..." />
@@ -1188,10 +1187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputFinalCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
       </provider>

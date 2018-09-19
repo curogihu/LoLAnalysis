@@ -10,4 +10,4 @@ df = pd.read_csv(input_killed_log_file_path)
 df2 = pd.read_csv(input_win_team_log_file_path)
 
 merged_df = pd.merge(df, df2, on=['game_id', 'team_id'])
-merged_df.to_csv(output_merged_file_path, columns=["boss_type", "time", "amount", "win_flag", "total_time"])
+merged_df.to_csv(output_merged_file_path, index=False, columns=["boss_type", "time", "amount", "win_flag", "total_time"])

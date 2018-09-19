@@ -4,6 +4,7 @@
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="merged_two_logs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py">
+      <file leaf-file-name="outputFinalCsv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="108" lean-forward="false" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
+            <state relative-caret-position="255">
+              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -116,6 +117,7 @@
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputWinTeamCsv.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" />
+        <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" />
       </list>
     </option>
   </component>
@@ -140,7 +142,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,8 +371,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -791,7 +793,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -802,7 +803,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29862174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29862174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1106,15 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1536762646027" expanded="false" signature="0:21" ph="import ..." />
-            <marker date="1536762646027" expanded="true" signature="527:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="618:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="829:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="910:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="2379:2731" ph="..." />
-            <marker date="1536762646027" expanded="true" signature="2487:2731" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,14 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding>
-            <marker date="1537336070249" expanded="true" signature="0:33" ph="import ..." />
-            <marker date="1537336070249" expanded="true" signature="35:128" ph="..." />
-            <marker date="1537336070249" expanded="true" signature="399:1644" ph="..." />
-            <marker date="1537336070249" expanded="true" signature="596:1644" ph="..." />
-            <marker date="1537336070249" expanded="true" signature="716:1545" ph="..." />
-            <marker date="1537336070249" expanded="true" signature="961:1545" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,20 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1537336470298" expanded="true" signature="0:33" ph="import ..." />
-            <marker date="1537336470298" expanded="true" signature="35:135" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="387:422" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="465:522" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="582:2820" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="781:2820" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="901:2721" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="1018:1838" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="1134:1838" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="1904:2721" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="1966:2721" ph="..." />
-            <marker date="1537336470298" expanded="true" signature="2035:2721" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,18 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="52" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <marker date="1537187903622" expanded="false" signature="0:33" ph="import ..." />
-            <marker date="1537187903622" expanded="true" signature="35:182" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="382:489" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="575:2011" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="762:2011" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="882:1901" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="1008:1433" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="1124:1433" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="1312:1433" ph="..." />
-            <marker date="1537187903622" expanded="true" signature="1494:1901" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,42 +1135,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1537190681200" expanded="false" signature="0:59" ph="import ..." />
-            <marker date="1537190681200" expanded="true" signature="61:170" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="506:3140" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="692:3140" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="838:3037" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="889:950" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="1001:1083" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="1348:2480" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="1664:1838" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="1930:2090" ph="..." />
-            <marker date="1537190681200" expanded="true" signature="2516:3037" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <marker date="1537190770728" expanded="true" signature="0:29" ph="import ..." />
-            <marker date="1537190770728" expanded="true" signature="1082:1189" ph="..." />
-            <marker date="1537190770728" expanded="true" signature="1324:2244" ph="..." />
-            <marker date="1537190770728" expanded="true" signature="1386:1531" ph="..." />
-            <marker date="1537190770728" expanded="true" signature="1918:2244" ph="..." />
-            <marker date="1537190770728" expanded="true" signature="2080:2244" ph="..." />
-            <marker date="1537190770728" expanded="true" signature="2262:2792" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="108" lean-forward="false" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <marker date="1537355995625" expanded="true" signature="0:29" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -16,7 +16,7 @@ df3 = pd.read_csv(input_champions_file_path, encoding='cp932', usecols=[0, 2])
 df3.columns = ["championId", "name"]
 
 merged_df = pd.merge(df, df2, on=['gameId', 'participantId'])
-merged_df.to_csv(output_merged_file_path)
+merged_df.to_csv(output_merged_file_path, index=False)
 
 merged_df2 = pd.merge(merged_df, df3, on=['championId'])
 # チャンピオン名に日本語を含むため、shift_jisで出力

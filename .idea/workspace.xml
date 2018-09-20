@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/machine_learning/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputWinTeamCsv.py" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb" afterPath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/tmp.ipynb" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="outputFinalCsv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="17">
+              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -142,9 +145,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,7 +320,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="automatic_detected_role" />
+              <option name="myItemId" value="analyse_dragons_and_winrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoLAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="identifyRoles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_wrangling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analyse_dragons_and_winrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -350,6 +379,10 @@
               <option name="myItemId" value="analyse_dragons_and_winrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machine_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -378,16 +411,16 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\automatic_detected_role" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\machine_learning" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing\not_used" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling\preprocessing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,7 +466,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\outputEliteMonsterKillCsv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing\outputEliteMonsterKillCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -451,7 +484,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputWinTeamCsv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing\outputWinTeamCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,7 +502,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing\outputEliteMonsterKillCsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -487,7 +520,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing\merged_two_logs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -808,7 +841,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1096,7 +1129,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/tmp.ipynb">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/tmp.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="-1" />
@@ -1110,14 +1143,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputWinTeamCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/outputEliteMonsterKillCsv.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
@@ -1138,7 +1171,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/merged_two_logs.py">
+    <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="54" />
@@ -1150,8 +1183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/outputFinalCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        <state relative-caret-position="17">
+          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

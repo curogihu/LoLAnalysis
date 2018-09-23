@@ -4,11 +4,11 @@ import glob
 
 # /lol/match/v3/timelines/by-match/{matchId}から出力されたJSONから
 # ゲームID, 倒した中立モンスターの種類、倒した数をcsvファイル形式で出力する
-# json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
-# boss_level_monster_kill_log_path = os.path.join("C:", os.sep, "output", "edit", "boss_killed_log", "killed_log.csv")
+json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "timeline", "*.json"))
+boss_level_monster_kill_log_path = os.path.join("C:", os.sep, "output", "edit", "boss_killed_log", "killed_log.csv")
 
-json_files_path = glob.glob(os.path.join("", os.sep, "Applications", "output", "game", "timeline", "*.json"))
-boss_level_monster_kill_log_path = os.path.join("", os.sep, "Applications", "output", "edit", "boss_killed_log", "killed_log.csv")
+# json_files_path = glob.glob(os.path.join("", os.sep, "Applications", "output", "game", "timeline", "*.json"))
+# boss_level_monster_kill_log_path = os.path.join("", os.sep, "Applications", "output", "edit", "boss_killed_log", "killed_log.csv")
 
 def convert_to_seconds(target_time):
     return int(target_time / 1000)

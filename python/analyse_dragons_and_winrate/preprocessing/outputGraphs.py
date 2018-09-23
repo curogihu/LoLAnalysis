@@ -15,7 +15,5 @@ sns.barplot(x="win_flag", y="boss_type", hue="amount", data=df)
 plt.savefig("relation_of_elite_moster_and_killed_amount.png")
 
 # 2. relation of elite monster type, mean of killed time and killed amount
-sns.set(rc={"figure.figsize": (11, 9)})
 sns.barplot(x="time", y="boss_type", hue="amount", data=df)
-#    # sns.plt.show()
 plt.savefig("relation_of_elite_monster_and_killed_time.png")

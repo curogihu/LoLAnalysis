@@ -15,9 +15,6 @@ import glob
 
 json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
 win_team_log_path = os.path.join("C:", os.sep, "output", "edit", "boss_killed_log", "win_team_log.csv")
-
-print(win_team_log_path)
-
 TWENTY_MINUTE_SECONDS = 1200
 
 with open(win_team_log_path, 'w') as csv_f:

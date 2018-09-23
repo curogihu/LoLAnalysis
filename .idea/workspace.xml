@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount..png" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_monster_and_killed_time.png" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_monster_and_killed_time.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,9 +21,11 @@
       <file leaf-file-name="outputGraphs.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,16 +125,16 @@
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/path_utility.py" />
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
-        <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" />
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" />
-        <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py" />
+        <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
+        <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-143" />
+    <option name="y" value="43" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -157,7 +155,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,6 +317,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.outputGraphs">
+  <component name="RunManager" selected="Python.merged_two_logs (1)">
     <configuration default="false" name="getALLInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -719,8 +717,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.outputGraphs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.outputGraphs" />
         <item index="2" class="java.lang.String" itemvalue="Python.outputEliteMonsterKillCsv (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python.outputWinTeamCsv (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python.getALLInfo" />
@@ -746,7 +744,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-143" y="43" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -762,7 +760,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35431919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -791,13 +789,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/spark/ver1/spark-sample2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getLoLInfo.py" />
     <entry file="file://$PROJECT_DIR$/python/collectInformation/getLoLInfo.py" />
     <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey" />
@@ -1040,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="53" lean-forward="true" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,43 +1038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding>
-            <marker date="1536913511123" expanded="false" signature="0:61" ph="import ..." />
-            <marker date="1536913511123" expanded="true" signature="99:1287" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="358:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="401:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="504:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="573:721" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="828:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="867:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="962:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1027:1171" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1312:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1546:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="1586:2177" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2199:3342" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2440:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2480:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="2735:2915" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3133:3242" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3365:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3540:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="3697:3799" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4006:4125" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4439:4654" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4682:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="4857:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5017:5122" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5334:5413" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5735:5988" ph="..." />
-            <marker date="1536913511123" expanded="true" signature="5869:5988" ph="..." />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb">
@@ -1098,39 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-          <folding>
-            <marker date="1537690604917" expanded="false" signature="0:67" ph="import ..." />
-            <marker date="1537690604917" expanded="true" signature="949:1230" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="1250:2453" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="2479:3866" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="3940:4143" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4000:4122" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4023:4122" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4189:4230" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4272:4309" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4342:4420" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4475:4603" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4653:4779" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="4832:4960" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5011:5131" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5186:5306" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5347:5426" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5458:5533" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5554:7610" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5620:7586" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="5767:5926" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6089:6187" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6292:6473" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6483:6589" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6624:6671" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6707:7324" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="6959:7220" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1537690604917" expanded="true" signature="7385:7427" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="7442:7546" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="7612:9922" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1537690604917" expanded="true" signature="9976:10264" ph="..." />
-            <marker date="1537690604917" expanded="true" signature="10010:10264" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,27 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <marker date="1537690604897" expanded="false" signature="0:21" ph="import ..." />
-            <marker date="1537690604897" expanded="true" signature="63:619" ph="..." />
-            <marker date="1537690604897" expanded="true" signature="672:1298" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <marker date="1537695569157" expanded="true" signature="0:33" ph="import ..." />
-            <marker date="1537695569157" expanded="true" signature="35:426" ph="..." />
-            <marker date="1537695569157" expanded="true" signature="724:2018" ph="..." />
-            <marker date="1537695569157" expanded="true" signature="844:904" ph="..." />
-            <marker date="1537695569157" expanded="true" signature="970:2018" ph="..." />
-            <marker date="1537695569157" expanded="true" signature="1090:1919" ph="..." />
-            <marker date="1537695569157" expanded="true" signature="1335:1919" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,43 +1066,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-748">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1537695653624" expanded="true" signature="0:33" ph="import ..." />
-            <marker date="1537695653624" expanded="true" signature="35:135" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="350:594" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="632:667" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="710:767" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="827:3306" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1026:3306" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1146:3207" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1263:2324" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1379:2324" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1568:1834" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1653:1834" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="1860:1952" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="2390:3207" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="2452:3207" ph="..." />
-            <marker date="1537695653624" expanded="true" signature="2521:3207" ph="..." />
-          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="323">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <marker date="1537695998964" expanded="false" signature="0:29" ph="import ..." />
-            <marker date="1537695998964" expanded="true" signature="440:826" ph="..." />
+            <marker date="1537706000501" expanded="false" signature="0:29" ph="import ..." />
+            <marker date="1537706000501" expanded="true" signature="440:826" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="103" lean-forward="false" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
+          <folding>
+            <marker date="1537706853587" expanded="false" signature="0:33" ph="import ..." />
+            <marker date="1537706853587" expanded="true" signature="35:426" ph="..." />
+            <marker date="1537706853587" expanded="true" signature="697:1991" ph="..." />
+            <marker date="1537706853587" expanded="true" signature="817:877" ph="..." />
+            <marker date="1537706853587" expanded="true" signature="943:1991" ph="..." />
+            <marker date="1537706853587" expanded="true" signature="1063:1892" ph="..." />
+            <marker date="1537706853587" expanded="true" signature="1308:1892" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_monster_and_killed_time.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

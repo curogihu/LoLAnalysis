@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b11f4c-edba-451f-ac6b-f0448b241cbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/path_utility.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/__init__.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/machine_learning/__init__.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/python/identifyRoles/data_wrangling/analyse_dragons_and_winrate/preprocessing/tmp.ipynb" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/__init__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/relation_of_elite_monster_and_killed_time.png" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_monster_and_killed_time.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/relation_of_elite_moster_and_killed_amount..png" afterPath="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount..png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/analyze/outputTeamResult.py" afterPath="$PROJECT_DIR$/python/analyze/outputTeamResult.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,78 +18,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="outputWinTeamCsv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merged_two_logs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaaa.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relation_of_elite_moster_and_killed_amount..png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/relation_of_elite_moster_and_killed_amount..png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path_utility.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/path_utility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="outputEliteMonsterKillCsv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
+    <leaf>
+      <file leaf-file-name="tmp.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="-1" />
             </state>
           </provider>
         </entry>
@@ -176,7 +104,6 @@
         <option value="$PROJECT_DIR$/python/identifyRoles/machine_learning/test.py" />
         <option value="$PROJECT_DIR$/python/temporary/test.py" />
         <option value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
-        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/outputTimelineCsv.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/convert_to_num.py" />
         <option value="$PROJECT_DIR$/python/identifyRoles/data_wrangling/preprocessing/edit_values.py" />
@@ -198,14 +125,15 @@
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py" />
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/merged_two_logs.py" />
         <option value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py" />
+        <option value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="39" />
-    <option name="width" value="1217" />
-    <option name="height" value="677" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -222,6 +150,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -378,15 +309,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="machine_learning" />
+              <option name="myItemId" value="preprocessing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,16 +322,16 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/python/collectInformation/apiKey.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate" />
-      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate/utility" />
-      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing" />
-      <recent name="$PROJECT_DIR$/python" />
-      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\identifyRoles\data_wrangling\analyse_dragons_and_winrate\preprocessing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\spark\ver2" />
       <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\data_wrangling" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\analyse_dragons_and_winrate\preprocessing" />
+      <recent name="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\analyse_dragons_and_winrate\preprocessing\image" />
+      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate" />
+      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate/utility" />
+      <recent name="$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,25 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aaaa (1)">
-    <configuration default="false" name="aaaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/anaconda/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/collectInformation" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/collectInformation/aaaa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.getALLInfo">
     <configuration default="false" name="merged_two_logs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,7 +413,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LoLAnalysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hikozuma\Desktop\開発\LoLAnalysis\python\analyse_dragons_and_winrate\preprocessing\outputGraphs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="getALLInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/collectInformation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LoLAnalysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/collectInformation/getALLInfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -703,44 +631,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -815,39 +705,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.aaaa" />
-      <item index="1" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.outputWinTeamCsv (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.outputEliteMonsterKillCsv (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.aaaa (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.outputWinTeamCsv (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.outputEliteMonsterKillCsv (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.aaaa (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getALLInfo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.aaaa (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.outputEliteMonsterKillCsv (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.outputWinTeamCsv (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.aaaa" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getALLInfo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.aaaa (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.merged_two_logs (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.outputEliteMonsterKillCsv (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.outputWinTeamCsv (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -870,7 +741,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="39" width="1217" height="677" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -881,20 +752,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23026316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22970903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2801972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -903,6 +773,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1104,20 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/getALLInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/identifyRoles/data_wrangling/automatic_detected_role/preprocessing/edit_values.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1129,13 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
         </state>
       </provider>
     </entry>
@@ -1164,25 +1014,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/aaaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/aaaa.py" />
     <entry file="file://$PROJECT_DIR$/python/analyze/searchWinRate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,15 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,26 +1037,32 @@
         <state relative-caret-position="225">
           <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputEliteMonsterKillCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <marker date="1537690604902" expanded="true" signature="0:33" ph="import ..." />
+            <marker date="1537690604902" expanded="true" signature="35:352" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="632:667" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="710:767" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="827:3306" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1026:3306" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1146:3207" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1263:2324" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1379:2324" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1568:1834" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1653:1834" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="1860:1952" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="2390:3207" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="2452:3207" ph="..." />
+            <marker date="1537690604902" expanded="true" signature="2521:3207" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,23 +1071,133 @@
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/relation_of_elite_moster_and_killed_amount..png">
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/apiKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="true" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <marker date="1537690604917" expanded="false" signature="0:67" ph="import ..." />
+            <marker date="1537690604917" expanded="true" signature="949:1230" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="1250:2453" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="2479:3866" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="3940:4143" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4000:4122" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4023:4122" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4189:4230" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4272:4309" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4342:4420" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4475:4603" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4653:4779" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="4832:4960" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5011:5131" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5186:5306" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5347:5426" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5458:5533" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5554:7610" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5620:7586" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="5767:5926" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6089:6187" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6292:6473" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6483:6589" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6624:6671" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6707:7324" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="6959:7220" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1537690604917" expanded="true" signature="7385:7427" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="7442:7546" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="7612:9922" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1537690604917" expanded="true" signature="9976:10264" ph="..." />
+            <marker date="1537690604917" expanded="true" signature="10010:10264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/collectInformation/getALLInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <marker date="1536913511123" expanded="false" signature="0:61" ph="import ..." />
+            <marker date="1536913511123" expanded="true" signature="99:1287" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="358:721" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="401:721" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="504:721" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="573:721" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="828:1171" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="867:1171" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="962:1171" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="1027:1171" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="1312:2177" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="1546:2177" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="1586:2177" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="2199:3342" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="2440:3242" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="2480:3242" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="2735:2915" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="3133:3242" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="3365:4654" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="3540:4654" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="3697:3799" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="4006:4125" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="4439:4654" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="4682:5988" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="4857:5988" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="5017:5122" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="5334:5413" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="5735:5988" ph="..." />
+            <marker date="1536913511123" expanded="true" signature="5869:5988" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/relation_of_elite_moster_and_killed_amount..png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/machine_learning/aaaa.py">
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputWinTeamCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1537690604906" expanded="false" signature="0:33" ph="import ..." />
+            <marker date="1537690604906" expanded="true" signature="35:197" ph="..." />
+            <marker date="1537690604906" expanded="true" signature="522:1816" ph="..." />
+            <marker date="1537690604906" expanded="true" signature="642:702" ph="..." />
+            <marker date="1537690604906" expanded="true" signature="768:1816" ph="..." />
+            <marker date="1537690604906" expanded="true" signature="888:1717" ph="..." />
+            <marker date="1537690604906" expanded="true" signature="1133:1717" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/outputGraphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <marker date="1537690604883" expanded="false" signature="0:83" ph="import ..." />
+            <marker date="1537690604883" expanded="true" signature="256:597" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/analyse_dragons_and_winrate/preprocessing/tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
         </state>
       </provider>
     </entry>

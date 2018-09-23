@@ -13,7 +13,6 @@ decoder = json.JSONDecoder(object_pairs_hook=collections.OrderedDict)
 filesCnt = len(jsonFileNames)
 cnt = 0
 
-
 for jsonFileName in jsonFileNames:
     f = open("../output/game/" + jsonFileName, "r")
     jsonData = decoder.decode(f.read())

@@ -2,10 +2,17 @@ import json
 import os
 import glob
 
+# import sys
+# sys.path.append('../')
+
+# from path_utility import *
+
 # /lol/match/v3/timelines/by-match/{matchId}から出力されたJSONから
 # ゲームID, チームID、勝利フラグをcsvファイル形式で出力する
-json_files_path = glob.glob(os.path.join("C:", os.sep, "output", "game", "info", "*.json"))
-win_team_log_path = os.path.join("C:", os.sep, "output", "edit", "boss_killed_log", "win_team_log.csv")
+json_files_path = glob.glob(os.path.join("", os.sep, "Applications", "output", "game", "info", "*.json"))
+win_team_log_path = os.path.join("", os.sep, "Applications", "output", "edit", "boss_killed_log", "win_team_log.csv")
+
+print(win_team_log_path)
 
 TWENTY_MINUTE_SECONDS = 1200
 
@@ -15,6 +22,8 @@ with open(win_team_log_path, 'w') as csv_f:
     csv_f.write("game_id,team_id,win_flag,total_time\n")
 
     total_file_num = len(json_files_path)
+
+    # /Applications/output/edit/boss_killed_log
 
     # 1試合づつ読み込み
     for file_index, json_file_path in enumerate(json_files_path):

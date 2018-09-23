@@ -24,43 +24,42 @@ item_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/item.json"
 
 # for Windows setting
 # refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
-challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
-master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
-summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summoners.csv')
-accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv')
-game_ids_file_path = os.path.join('C:', os.sep, 'output', 'list', 'game_ids.csv')
-timelines_file_path = os.path.join('C:', os.sep, 'output', 'list', 'timelines.csv')
+if os.name == "nt":
+    challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
+    master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
+    summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summoners.csv')
+    accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv')
+    game_ids_file_path = os.path.join('C:', os.sep, 'output', 'list', 'game_ids.csv')
+    timelines_file_path = os.path.join('C:', os.sep, 'output', 'list', 'timelines.csv')
 
-champions_file_path = os.path.join('C:', os.sep, "output", "list", "champions.json")
-items_file_path = os.path.join('C:', os.sep,"output", "list", "items.json")
+    champions_file_path = os.path.join('C:', os.sep, "output", "list", "champions.json")
+    items_file_path = os.path.join('C:', os.sep,"output", "list", "items.json")
 
-# I' like to set a path, such as C:/output/game/
-match_version_directory_path = os.path.join("C:", os.sep, "output", "game", "")
-match_directory_path = os.path.join("C:", os.sep, "output", "match", "")
-game_info_directory_path = os.path.join("C:", os.sep, "output", "game", "info", "")
-game_timeline_directory_path = os.path.join("C:", os.sep, "output", "game", "timeline", "")
-account_folder_path = os.path.join("C:", os.sep, "output", "account", "")
+    # I' like to set a path, such as C:/output/game/
+    match_version_directory_path = os.path.join("C:", os.sep, "output", "game", "")
+    match_directory_path = os.path.join("C:", os.sep, "output", "match", "")
+    game_info_directory_path = os.path.join("C:", os.sep, "output", "game", "info", "")
+    game_timeline_directory_path = os.path.join("C:", os.sep, "output", "game", "timeline", "")
+    account_folder_path = os.path.join("C:", os.sep, "output", "account", "")
 
-"""
-# for Mac setting
-# refactoring, path = os.path.join(['C:', 'path', 'to', 'file'])
-challenger_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerChallenger.csv')
-master_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerMaster.csv')
-summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summoners.csv')
-accounts_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'accounts.csv')
-game_ids_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'game_ids.csv')
-timelines_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'timelines.csv')
+elif os.name == "posix":
+    challenger_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerChallenger.csv')
+    master_summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summonerMaster.csv')
+    summoners_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'summoners.csv')
+    accounts_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'accounts.csv')
+    game_ids_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'game_ids.csv')
+    timelines_file_path = os.path.join('', os.sep, 'Applications', 'output', 'list', 'timelines.csv')
 
-champions_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "champions.json")
-items_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "items.json")
+    champions_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "champions.json")
+    items_file_path = os.path.join('', os.sep, 'Applications', "output", "list", "items.json")
 
-# I'd like to set a path, such as C:/output/game/
-match_version_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "")
-match_directory_path = os.path.join("", os.sep, 'Applications', "output", "match", "")
-game_info_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "info", "")
-game_timeline_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "timeline", "")
-account_folder_path = os.path.join("", os.sep, 'Applications', "output", "account", "")
-"""
+    # I'd like to set a path, such as C:/output/game/
+    match_version_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "")
+    match_directory_path = os.path.join("", os.sep, 'Applications', "output", "match", "")
+    game_info_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "info", "")
+    game_timeline_directory_path = os.path.join("", os.sep, 'Applications', "output", "game", "timeline", "")
+    account_folder_path = os.path.join("", os.sep, 'Applications', "output", "account", "")
+
 
 # created to search quickly than list object
 def get_dict_account_id():

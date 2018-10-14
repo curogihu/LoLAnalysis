@@ -1,6 +1,7 @@
 .idea/workspace.xml
 python/__pycache__/utility.cpython-35.pyc
 python/collectInformation/apiKey.py
+python/analyse_dragons_and_winrate/preprocessing/*.png
 *.pyc
 django/challenger_item_build/challenger_item_build/settings.py
 

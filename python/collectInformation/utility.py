@@ -4,14 +4,25 @@ from time import sleep
 import requests
 
 # server_url = "https://na1.api.riotgames.com/lol"
+"""
+Reference of constant values: https://developer.riotgames.com/game-constants.html
+"""
+
 server_url = "https://jp1.api.riotgames.com/lol"
 
-challengers_url = server_url + "/league/v3/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
-masters_url = server_url + "/league/v3/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
-account_url = server_url + "/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
-match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&season=11&api_key=[APIKEY]"
-game_info_url = server_url + "/match/v3/matches/[GAMEID]?api_key=[APIKEY]"
-game_timeline_url = server_url + "/match/v3/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
+challengers_url = server_url + "/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+grandmasterleagues_url = server_url + "/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+masters_url = server_url + "/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
+
+
+# account_url = server_url + "/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
+account_url = server_url + "/summoner/v4/summoners/[ENCRYPTED_SUMMONER_ID]?api_key=[APIKEY]"
+
+# match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&season=11&api_key=[APIKEY]"
+match_url = server_url + "/match/v4/matchlists/by-account/[ACCOUNTID]?queue=420&season=13&api_key=[APIKEY]"
+
+game_info_url = server_url + "/match/v4/matches/[GAMEID]?api_key=[APIKEY]"
+game_timeline_url = server_url + "/match/v4/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
 # バージョンはとりあえず決め打ち。　呼び出し元で最新のバージョン取得し、URLを変更する方式に切り替える
 champion_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/champion.json"
@@ -27,6 +38,8 @@ item_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/item.json"
 if os.name == "nt":
     challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
     master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
+    grandmaster_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerGrandMaster.csv')
+
     summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summoners.csv')
     accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv')
     game_ids_file_path = os.path.join('C:', os.sep, 'output', 'list', 'game_ids.csv')
@@ -78,6 +91,10 @@ def get_lol_challenger_summoners_id_json():
     return get_lol_json(challengers_url)
 
 
+def get_lol_grandmaster_summoners_id_json():
+    return get_lol_json(grandmasterleagues_url)
+
+
 def get_lol_master_summoners_id_json():
     return get_lol_json(masters_url)
 
@@ -103,7 +120,7 @@ def get_lol_match_json(urlTemplate, accountId):
 
 
 def get_lol_account_json(urlTemplate, summonerId):
-    url = urlTemplate.replace("[SUMMONERID]", summonerId)
+    url = urlTemplate.replace("[ENCRYPTED_SUMMONER_ID]", summonerId)
     url = url.replace("[APIKEY]", a.apiKey)
 
     return get_json(url)

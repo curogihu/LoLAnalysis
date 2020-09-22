@@ -5,3 +5,11 @@ python/analyse_dragons_and_winrate/preprocessing/*.png
 *.pyc
 django/challenger_item_build/challenger_item_build/settings.py
 
+.idea/workspace.xml
+python/find_natural_enemies_against_main_champion/preprocessing/__init__.py
+python/find_natural_enemies_against_main_champion/__init__.py
+*.py
+python/collectInformation/getALLInfo.py
+*.xml
+.idea/workspace.xml
+.idea/workspace.xml

@@ -19,14 +19,19 @@ masters_url = server_url + "/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?ap
 account_url = server_url + "/summoner/v4/summoners/[ENCRYPTED_SUMMONER_ID]?api_key=[APIKEY]"
 
 # match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&season=11&api_key=[APIKEY]"
-match_url = server_url + "/match/v4/matchlists/by-account/[ACCOUNTID]?queue=420&season=13&api_key=[APIKEY]"
+
+# temporary, use magic number to champion id
+match_url = server_url + "/match/v4/matchlists/by-account/[ACCOUNTID]?queue=420&champion=57&season=13&api_key=[APIKEY]"
+
 
 game_info_url = server_url + "/match/v4/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v4/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
 # バージョンはとりあえず決め打ち。　呼び出し元で最新のバージョン取得し、URLを変更する方式に切り替える
-champion_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/champion.json"
-item_url = "http://ddragon.leagueoflegends.com/cdn/8.16.1/data/ja_JP/item.json"
+champion_url = "http://ddragon.leagueoflegends.com/cdn/9.13.1/data/ja_JP/champion.json"
+item_url = "http://ddragon.leagueoflegends.com/cdn/9.13.1/data/ja_JP/item.json"
+
+league_url =  server_url + "/league/v4/entries/RANKED_SOLO_5x5/[TIER]/[DIVISION]?page=[PAGE]&api_key=[APIKEY]"
 
 # https://developer.riotgames.com/static-data.html
 # http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json
@@ -39,6 +44,8 @@ if os.name == "nt":
     challenger_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerChallenger.csv')
     master_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerMaster.csv')
     grandmaster_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerGrandMaster.csv')
+
+    general_summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summonerGeneral.csv')
 
     summoners_file_path = os.path.join('C:', os.sep, 'output', 'list', 'summoners.csv')
     accounts_file_path = os.path.join('C:', os.sep, 'output', 'list', 'accounts.csv')
@@ -152,6 +159,34 @@ def get_lol_item_info_json():
     return get_json(url)
 
 
+def get_division(division_num):
+    if division_num == 1:
+        return "I"
+
+    if division_num == 2:
+        return "II"
+
+    if division_num == 3:
+        return "III"
+
+    if division_num == 4:
+        return "IV"
+
+    return ""
+
+
+def get_lol_summoners_in_league_json(division_num, tier, page):
+
+    division = get_division(division_num)
+
+    url = league_url.replace("[APIKEY]", a.apiKey)
+    url = url.replace("[DIVISION]", division)
+    url = url.replace("[TIER]", tier)
+    url = url.replace("[PAGE]", str(page))
+
+    return get_json(url)
+
+
 def get_json(url):
     cnt = 0
     return_json = ""
@@ -220,7 +255,7 @@ def get_json(url):
 
             # emergency stop
             return_json = "429"
-            break;
+            break
 
         elif r.status_code >= 500 and r.status_code <= 599:
             cnt += 1
@@ -316,6 +351,7 @@ def get_json(url):
         print("return code = " + str(returnCode) + ", url = " + url)
         return ""
 """
+
 
 def delete_duplicated_records(filePath, reverseFlg):
 

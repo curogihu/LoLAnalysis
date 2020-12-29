@@ -14,22 +14,21 @@ challengers_url = server_url + "/league/v4/challengerleagues/by-queue/RANKED_SOL
 grandmasterleagues_url = server_url + "/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 masters_url = server_url + "/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=[APIKEY]"
 
-
 # account_url = server_url + "/summoner/v3/summoners/[SUMMONERID]?api_key=[APIKEY]"
 account_url = server_url + "/summoner/v4/summoners/[ENCRYPTED_SUMMONER_ID]?api_key=[APIKEY]"
 
 # match_url = server_url + "/match/v3/matchlists/by-account/[ACCOUNTID]?queue=420&season=11&api_key=[APIKEY]"
 
 # temporary, use magic number to champion id
-match_url = server_url + "/match/v4/matchlists/by-account/[ACCOUNTID]?queue=420&champion=57&season=13&api_key=[APIKEY]"
+match_url = server_url + "/match/v4/matchlists/by-account/[ACCOUNTID]?queue=420&season=13&api_key=[APIKEY]"
 
 
 game_info_url = server_url + "/match/v4/matches/[GAMEID]?api_key=[APIKEY]"
 game_timeline_url = server_url + "/match/v4/timelines/by-match/[GAMEID]?api_key=[APIKEY]"
 
-# バージョンはとりあえず決め打ち。　呼び出し元で最新のバージョン取得し、URLを変更する方式に切り替える
-champion_url = "http://ddragon.leagueoflegends.com/cdn/9.13.1/data/ja_JP/champion.json"
-item_url = "http://ddragon.leagueoflegends.com/cdn/9.13.1/data/ja_JP/item.json"
+champion_url = "http://ddragon.leagueoflegends.com/cdn/10.25.1/data/ja_JP/champion.json"
+item_url = "http://ddragon.leagueoflegends.com/cdn/10.25.1/data/ja_JP/item.json"
+
 
 league_url =  server_url + "/league/v4/entries/RANKED_SOLO_5x5/[TIER]/[DIVISION]?page=[PAGE]&api_key=[APIKEY]"
 

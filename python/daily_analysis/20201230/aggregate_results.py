@@ -11,8 +11,8 @@ def main(csv_file_path: str) -> None:
     # print(df_grouped)
 
     df_grouped['win_rate'] = df_grouped['win'] / (df_grouped['win'] + df_grouped['lose'])
-    
-    print(df_grouped)
+    df_output = df_grouped.sort_values('win_rate', ascending=False)
+    df_output.to_csv('results.csv')
 
 
 if __name__ == '__main__':

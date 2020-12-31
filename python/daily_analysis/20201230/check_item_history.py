@@ -79,6 +79,11 @@ if __name__ == '__main__':
     df = pd.read_csv(core_item_file_path)
 
     core_item_keys = df['item_key'].values
+    core_item_names = df['item_name'].values
+
+    core_item_dict = dict(zip(core_item_keys, core_item_names))
+
+    # exit()
 
     tmp_output = []
 
@@ -88,13 +93,18 @@ if __name__ == '__main__':
         item_1, item_2 = main(core_item_keys, timeline_file_path, participant_id)
 
         if not(item_1 == 0 and item_2 == 0):
-            tmp_output.append([item_1, item_2, win, lose])
+            # item_1
+            # tmp_output.append([item_1, item_2, win, lose])
+            tmp_output.append([core_item_dict[item_1], core_item_dict[item_2], win, lose])
 
-    np.savetxt(
-        'item_purchase_history.csv',
-        np.array(tmp_output),
-        delimiter=',',
-        header='item_1,item_2,win,lose',
-        comments='',
-        fmt='%d'
-    )
+    # np.savetxt(
+    #     'item_purchase_history.csv',
+    #     np.array(tmp_output),
+    #     delimiter=',',
+    #     header='item_1,item_2,win,lose',
+    #     comments='',
+    #     fmt='%d'
+    # )
+
+    df_output = pd.DataFrame(np.array(tmp_output), columns=['item_1', 'item_2', 'win', 'lose'])
+    df_output.to_csv('item_purchase_history.csv', header=True, index=False, encoding='utf-8')

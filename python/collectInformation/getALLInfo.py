@@ -7,6 +7,8 @@ import math
 
 import utility
 
+import sys
+
 
 def get_high_ranked_summoner_ids():
     challenger_summoner_json = utility.get_lol_challenger_summoners_id_json()
@@ -228,13 +230,16 @@ def get_game_timelines(last_game_id):
 
 if __name__ == "__main__":
 
+    # print(sys.version)
+    # exit()
+
     end_ut = math.floor(time.time()) * 1000
 
-    # within 60 days
-    first_ut = end_ut - (60 * 60 * 24 * 60 * 1000)
+    # within 90 days
+    first_ut = end_ut - (60 * 60 * 24 * 90 * 1000)
 
-    # get_high_ranked_summoner_ids()
-    # get_account_ids()
+    get_high_ranked_summoner_ids()
+    get_account_ids()
 
     print('fetching game ids')
     get_game_ids()

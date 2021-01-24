@@ -13,3 +13,5 @@ python/collectInformation/getALLInfo.py
 *.xml
 .idea/workspace.xml
 .idea/workspace.xml
+
+*.png
